@@ -14,6 +14,7 @@ RelLaughPaw=data.frame()
 RelLaughSes=data.frame()
 RelPowSof=data.frame()
 
+#bigbutt final
 
 
 PawRDA2.12=read.xlsx("Reliability_Paw_RD-Grp1_2.12.14-AH.xlsx",1)
