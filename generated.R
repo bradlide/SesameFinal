@@ -26,7 +26,7 @@ PosAngelsCare_PawPatrol_A_2_11
 ## Laugh:
 AngelsCare_PawPatrol_A_2_11=read.xlsx("AngelsCare_PawPatrol_A_2.11.14.xlsx",header=T,1)
 AngelsCare_PawPatrol_A_2_11t=t(AngelsCare_PawPatrol_A_2_11)
-LAngelsCare_PawPatrol_A_2_11=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LAngelsCare_PawPatrol_A_2_11=data.frame(AngelsCare_PawPatrol_A_2_11[c(9,12,15,18,21,24),])
 LAngelsCare_PawPatrol_A_2_11=as.matrix(LAngelsCare_PawPatrol_A_2_11)
 LAngelsCare_PawPatrol_A_2_11=as.numeric(LAngelsCare_PawPatrol_A_2_11)
 LAngelsCare_PawPatrol_A_2_11=matrix(LAngelsCare_PawPatrol_A_2_11,nrow=6,ncol=22)
@@ -61,7 +61,7 @@ PosAngelsCare_Sesame_A_2_11
 ## Laugh:
 AngelsCare_Sesame_A_2_11=read.xlsx("AngelsCare_Sesame_A_2.11.14.xlsx",header=T,1)
 AngelsCare_Sesame_A_2_11t=t(AngelsCare_Sesame_A_2_11)
-LAngelsCare_Sesame_A_2_11=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LAngelsCare_Sesame_A_2_11=data.frame(AngelsCare_Sesame_A_2_11[c(9,12,15,18,21,24),])
 LAngelsCare_Sesame_A_2_11=as.matrix(LAngelsCare_Sesame_A_2_11)
 LAngelsCare_Sesame_A_2_11=as.numeric(LAngelsCare_Sesame_A_2_11)
 LAngelsCare_Sesame_A_2_11=matrix(LAngelsCare_Sesame_A_2_11,nrow=6,ncol=50)
@@ -96,7 +96,7 @@ PosAngelsCare_Sofia_A_2_11
 ## Laugh:
 AngelsCare_Sofia_A_2_11=read.xlsx("AngelsCare_Sofia_A_2.11.14.xlsx",header=T,1)
 AngelsCare_Sofia_A_2_11t=t(AngelsCare_Sofia_A_2_11)
-LAngelsCare_Sofia_A_2_11=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LAngelsCare_Sofia_A_2_11=data.frame(AngelsCare_Sofia_A_2_11[c(9,12,15,18,21,24),])
 LAngelsCare_Sofia_A_2_11=as.matrix(LAngelsCare_Sofia_A_2_11)
 LAngelsCare_Sofia_A_2_11=as.numeric(LAngelsCare_Sofia_A_2_11)
 LAngelsCare_Sofia_A_2_11=matrix(LAngelsCare_Sofia_A_2_11,nrow=6,ncol=22)
@@ -131,7 +131,7 @@ PosAngelsCare_PawPatrol_A_2_17
 ## Laugh:
 AngelsCare_PawPatrol_A_2_17=read.xlsx("AngelsCare_PawPatrol_A_2.17.14.xlsx",header=T,1)
 AngelsCare_PawPatrol_A_2_17t=t(AngelsCare_PawPatrol_A_2_17)
-LAngelsCare_PawPatrol_A_2_17=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LAngelsCare_PawPatrol_A_2_17=data.frame(AngelsCare_PawPatrol_A_2_17[c(9,12,15,18,21,24),])
 LAngelsCare_PawPatrol_A_2_17=as.matrix(LAngelsCare_PawPatrol_A_2_17)
 LAngelsCare_PawPatrol_A_2_17=as.numeric(LAngelsCare_PawPatrol_A_2_17)
 LAngelsCare_PawPatrol_A_2_17=matrix(LAngelsCare_PawPatrol_A_2_17,nrow=6,ncol=22)
@@ -166,7 +166,7 @@ PosAngelsCare_Sesame_A_2_17
 ## Laugh:
 AngelsCare_Sesame_A_2_17=read.xlsx("AngelsCare_Sesame_A_2.17.14.xlsx",header=T,1)
 AngelsCare_Sesame_A_2_17t=t(AngelsCare_Sesame_A_2_17)
-LAngelsCare_Sesame_A_2_17=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LAngelsCare_Sesame_A_2_17=data.frame(AngelsCare_Sesame_A_2_17[c(9,12,15,18,21,24),])
 LAngelsCare_Sesame_A_2_17=as.matrix(LAngelsCare_Sesame_A_2_17)
 LAngelsCare_Sesame_A_2_17=as.numeric(LAngelsCare_Sesame_A_2_17)
 LAngelsCare_Sesame_A_2_17=matrix(LAngelsCare_Sesame_A_2_17,nrow=6,ncol=50)
@@ -201,7 +201,7 @@ PosAngelsCare_Sofia_A_2_17
 ## Laugh:
 AngelsCare_Sofia_A_2_17=read.xlsx("AngelsCare_Sofia_A_2.17.14.xlsx",header=T,1)
 AngelsCare_Sofia_A_2_17t=t(AngelsCare_Sofia_A_2_17)
-LAngelsCare_Sofia_A_2_17=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LAngelsCare_Sofia_A_2_17=data.frame(AngelsCare_Sofia_A_2_17[c(9,12,15,18,21,24),])
 LAngelsCare_Sofia_A_2_17=as.matrix(LAngelsCare_Sofia_A_2_17)
 LAngelsCare_Sofia_A_2_17=as.numeric(LAngelsCare_Sofia_A_2_17)
 LAngelsCare_Sofia_A_2_17=matrix(LAngelsCare_Sofia_A_2_17,nrow=6,ncol=22)
@@ -236,7 +236,7 @@ PosAngelsCare_PawPatrol_B_2_11
 ## Laugh:
 AngelsCare_PawPatrol_B_2_11=read.xlsx("AngelsCare_PawPatrol_B_2.11.14.xlsx",header=T,1)
 AngelsCare_PawPatrol_B_2_11t=t(AngelsCare_PawPatrol_B_2_11)
-LAngelsCare_PawPatrol_B_2_11=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LAngelsCare_PawPatrol_B_2_11=data.frame(AngelsCare_PawPatrol_B_2_11[c(9,12,15,18,21,24),])
 LAngelsCare_PawPatrol_B_2_11=as.matrix(LAngelsCare_PawPatrol_B_2_11)
 LAngelsCare_PawPatrol_B_2_11=as.numeric(LAngelsCare_PawPatrol_B_2_11)
 LAngelsCare_PawPatrol_B_2_11=matrix(LAngelsCare_PawPatrol_B_2_11,nrow=6,ncol=22)
@@ -271,7 +271,7 @@ PosAngelsCare_Sesame_B_2_11
 ## Laugh:
 AngelsCare_Sesame_B_2_11=read.xlsx("AngelsCare_Sesame_B_2.11.14.xlsx",header=T,1)
 AngelsCare_Sesame_B_2_11t=t(AngelsCare_Sesame_B_2_11)
-LAngelsCare_Sesame_B_2_11=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LAngelsCare_Sesame_B_2_11=data.frame(AngelsCare_Sesame_B_2_11[c(9,12,15,18,21,24),])
 LAngelsCare_Sesame_B_2_11=as.matrix(LAngelsCare_Sesame_B_2_11)
 LAngelsCare_Sesame_B_2_11=as.numeric(LAngelsCare_Sesame_B_2_11)
 LAngelsCare_Sesame_B_2_11=matrix(LAngelsCare_Sesame_B_2_11,nrow=6,ncol=50)
@@ -306,7 +306,7 @@ PosAngelsCare_Sofia_B_2_11
 ## Laugh:
 AngelsCare_Sofia_B_2_11=read.xlsx("AngelsCare_Sofia_B_2.11.14.xlsx",header=T,1)
 AngelsCare_Sofia_B_2_11t=t(AngelsCare_Sofia_B_2_11)
-LAngelsCare_Sofia_B_2_11=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LAngelsCare_Sofia_B_2_11=data.frame(AngelsCare_Sofia_B_2_11[c(9,12,15,18,21,24),])
 LAngelsCare_Sofia_B_2_11=as.matrix(LAngelsCare_Sofia_B_2_11)
 LAngelsCare_Sofia_B_2_11=as.numeric(LAngelsCare_Sofia_B_2_11)
 LAngelsCare_Sofia_B_2_11=matrix(LAngelsCare_Sofia_B_2_11,nrow=6,ncol=22)
@@ -341,7 +341,7 @@ PosAngelsCare_PawPatrol_B_2_17
 ## Laugh:
 AngelsCare_PawPatrol_B_2_17=read.xlsx("AngelsCare_PawPatrol_B_2.17.14.xlsx",header=T,1)
 AngelsCare_PawPatrol_B_2_17t=t(AngelsCare_PawPatrol_B_2_17)
-LAngelsCare_PawPatrol_B_2_17=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LAngelsCare_PawPatrol_B_2_17=data.frame(AngelsCare_PawPatrol_B_2_17[c(9,12,15,18,21,24),])
 LAngelsCare_PawPatrol_B_2_17=as.matrix(LAngelsCare_PawPatrol_B_2_17)
 LAngelsCare_PawPatrol_B_2_17=as.numeric(LAngelsCare_PawPatrol_B_2_17)
 LAngelsCare_PawPatrol_B_2_17=matrix(LAngelsCare_PawPatrol_B_2_17,nrow=6,ncol=22)
@@ -376,7 +376,7 @@ PosAngelsCare_Sesame_B_2_17
 ## Laugh:
 AngelsCare_Sesame_B_2_17=read.xlsx("AngelsCare_Sesame_B_2.17.14.xlsx",header=T,1)
 AngelsCare_Sesame_B_2_17t=t(AngelsCare_Sesame_B_2_17)
-LAngelsCare_Sesame_B_2_17=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LAngelsCare_Sesame_B_2_17=data.frame(AngelsCare_Sesame_B_2_17[c(9,12,15,18,21,24),])
 LAngelsCare_Sesame_B_2_17=as.matrix(LAngelsCare_Sesame_B_2_17)
 LAngelsCare_Sesame_B_2_17=as.numeric(LAngelsCare_Sesame_B_2_17)
 LAngelsCare_Sesame_B_2_17=matrix(LAngelsCare_Sesame_B_2_17,nrow=6,ncol=50)
@@ -411,7 +411,7 @@ PosAngelsCare_Sofia_B_2_17
 ## Laugh:
 AngelsCare_Sofia_B_2_17=read.xlsx("AngelsCare_Sofia_B_2.17.14.xlsx",header=T,1)
 AngelsCare_Sofia_B_2_17t=t(AngelsCare_Sofia_B_2_17)
-LAngelsCare_Sofia_B_2_17=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LAngelsCare_Sofia_B_2_17=data.frame(AngelsCare_Sofia_B_2_17[c(9,12,15,18,21,24),])
 LAngelsCare_Sofia_B_2_17=as.matrix(LAngelsCare_Sofia_B_2_17)
 LAngelsCare_Sofia_B_2_17=as.numeric(LAngelsCare_Sofia_B_2_17)
 LAngelsCare_Sofia_B_2_17=matrix(LAngelsCare_Sofia_B_2_17,nrow=6,ncol=22)
@@ -446,7 +446,7 @@ PosASCA_PawPatrol_A_2_13
 ## Laugh:
 ASCA_PawPatrol_A_2_13=read.xlsx("ASCA_PawPatrol_A_2.13.14.xlsx",header=T,1)
 ASCA_PawPatrol_A_2_13t=t(ASCA_PawPatrol_A_2_13)
-LASCA_PawPatrol_A_2_13=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LASCA_PawPatrol_A_2_13=data.frame(ASCA_PawPatrol_A_2_13[c(9,12,15,18,21,24),])
 LASCA_PawPatrol_A_2_13=as.matrix(LASCA_PawPatrol_A_2_13)
 LASCA_PawPatrol_A_2_13=as.numeric(LASCA_PawPatrol_A_2_13)
 LASCA_PawPatrol_A_2_13=matrix(LASCA_PawPatrol_A_2_13,nrow=6,ncol=22)
@@ -481,7 +481,7 @@ PosASCA_Sesame_A_2_13
 ## Laugh:
 ASCA_Sesame_A_2_13=read.xlsx("ASCA_Sesame_A_2.13.14.xlsx",header=T,1)
 ASCA_Sesame_A_2_13t=t(ASCA_Sesame_A_2_13)
-LASCA_Sesame_A_2_13=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LASCA_Sesame_A_2_13=data.frame(ASCA_Sesame_A_2_13[c(9,12,15,18,21,24),])
 LASCA_Sesame_A_2_13=as.matrix(LASCA_Sesame_A_2_13)
 LASCA_Sesame_A_2_13=as.numeric(LASCA_Sesame_A_2_13)
 LASCA_Sesame_A_2_13=matrix(LASCA_Sesame_A_2_13,nrow=6,ncol=50)
@@ -516,7 +516,7 @@ PosASCA_Sofia_A_2_13
 ## Laugh:
 ASCA_Sofia_A_2_13=read.xlsx("ASCA_Sofia_A_2.13.14.xlsx",header=T,1)
 ASCA_Sofia_A_2_13t=t(ASCA_Sofia_A_2_13)
-LASCA_Sofia_A_2_13=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LASCA_Sofia_A_2_13=data.frame(ASCA_Sofia_A_2_13[c(9,12,15,18,21,24),])
 LASCA_Sofia_A_2_13=as.matrix(LASCA_Sofia_A_2_13)
 LASCA_Sofia_A_2_13=as.numeric(LASCA_Sofia_A_2_13)
 LASCA_Sofia_A_2_13=matrix(LASCA_Sofia_A_2_13,nrow=6,ncol=22)
@@ -551,7 +551,7 @@ PosCreativeWorld_PawPatrol_A_2_3
 ## Laugh:
 CreativeWorld_PawPatrol_A_2_3=read.xlsx("CreativeWorld_PawPatrol_A_2.3.14.xlsx",header=T,1)
 CreativeWorld_PawPatrol_A_2_3t=t(CreativeWorld_PawPatrol_A_2_3)
-LCreativeWorld_PawPatrol_A_2_3=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LCreativeWorld_PawPatrol_A_2_3=data.frame(CreativeWorld_PawPatrol_A_2_3[c(9,12,15,18,21,24),])
 LCreativeWorld_PawPatrol_A_2_3=as.matrix(LCreativeWorld_PawPatrol_A_2_3)
 LCreativeWorld_PawPatrol_A_2_3=as.numeric(LCreativeWorld_PawPatrol_A_2_3)
 LCreativeWorld_PawPatrol_A_2_3=matrix(LCreativeWorld_PawPatrol_A_2_3,nrow=6,ncol=22)
@@ -586,7 +586,7 @@ PosCreativeWorld_Sesame_A_2_3
 ## Laugh:
 CreativeWorld_Sesame_A_2_3=read.xlsx("CreativeWorld_Sesame_A_2.3.14.xlsx",header=T,1)
 CreativeWorld_Sesame_A_2_3t=t(CreativeWorld_Sesame_A_2_3)
-LCreativeWorld_Sesame_A_2_3=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LCreativeWorld_Sesame_A_2_3=data.frame(CreativeWorld_Sesame_A_2_3[c(9,12,15,18,21,24),])
 LCreativeWorld_Sesame_A_2_3=as.matrix(LCreativeWorld_Sesame_A_2_3)
 LCreativeWorld_Sesame_A_2_3=as.numeric(LCreativeWorld_Sesame_A_2_3)
 LCreativeWorld_Sesame_A_2_3=matrix(LCreativeWorld_Sesame_A_2_3,nrow=6,ncol=50)
@@ -621,7 +621,7 @@ PosCreativeWorld_Sofia_A_2_3
 ## Laugh:
 CreativeWorld_Sofia_A_2_3=read.xlsx("CreativeWorld_Sofia_A_2.3.14.xlsx",header=T,1)
 CreativeWorld_Sofia_A_2_3t=t(CreativeWorld_Sofia_A_2_3)
-LCreativeWorld_Sofia_A_2_3=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LCreativeWorld_Sofia_A_2_3=data.frame(CreativeWorld_Sofia_A_2_3[c(9,12,15,18,21,24),])
 LCreativeWorld_Sofia_A_2_3=as.matrix(LCreativeWorld_Sofia_A_2_3)
 LCreativeWorld_Sofia_A_2_3=as.numeric(LCreativeWorld_Sofia_A_2_3)
 LCreativeWorld_Sofia_A_2_3=matrix(LCreativeWorld_Sofia_A_2_3,nrow=6,ncol=22)
@@ -656,7 +656,7 @@ PosCreativeWorld_PawPatrol_B_2_3
 ## Laugh:
 CreativeWorld_PawPatrol_B_2_3=read.xlsx("CreativeWorld_PawPatrol_B_2.3.14.xlsx",header=T,1)
 CreativeWorld_PawPatrol_B_2_3t=t(CreativeWorld_PawPatrol_B_2_3)
-LCreativeWorld_PawPatrol_B_2_3=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LCreativeWorld_PawPatrol_B_2_3=data.frame(CreativeWorld_PawPatrol_B_2_3[c(9,12,15,18,21,24),])
 LCreativeWorld_PawPatrol_B_2_3=as.matrix(LCreativeWorld_PawPatrol_B_2_3)
 LCreativeWorld_PawPatrol_B_2_3=as.numeric(LCreativeWorld_PawPatrol_B_2_3)
 LCreativeWorld_PawPatrol_B_2_3=matrix(LCreativeWorld_PawPatrol_B_2_3,nrow=6,ncol=22)
@@ -691,7 +691,7 @@ PosCreativeWorld_Sesame_B_2_3
 ## Laugh:
 CreativeWorld_Sesame_B_2_3=read.xlsx("CreativeWorld_Sesame_B_2.3.14.xlsx",header=T,1)
 CreativeWorld_Sesame_B_2_3t=t(CreativeWorld_Sesame_B_2_3)
-LCreativeWorld_Sesame_B_2_3=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LCreativeWorld_Sesame_B_2_3=data.frame(CreativeWorld_Sesame_B_2_3[c(9,12,15,18,21,24),])
 LCreativeWorld_Sesame_B_2_3=as.matrix(LCreativeWorld_Sesame_B_2_3)
 LCreativeWorld_Sesame_B_2_3=as.numeric(LCreativeWorld_Sesame_B_2_3)
 LCreativeWorld_Sesame_B_2_3=matrix(LCreativeWorld_Sesame_B_2_3,nrow=6,ncol=50)
@@ -726,7 +726,7 @@ PosCreativeWorld_Sofia_B_2_3
 ## Laugh:
 CreativeWorld_Sofia_B_2_3=read.xlsx("CreativeWorld_Sofia_B_2.3.14.xlsx",header=T,1)
 CreativeWorld_Sofia_B_2_3t=t(CreativeWorld_Sofia_B_2_3)
-LCreativeWorld_Sofia_B_2_3=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LCreativeWorld_Sofia_B_2_3=data.frame(CreativeWorld_Sofia_B_2_3[c(9,12,15,18,21,24),])
 LCreativeWorld_Sofia_B_2_3=as.matrix(LCreativeWorld_Sofia_B_2_3)
 LCreativeWorld_Sofia_B_2_3=as.numeric(LCreativeWorld_Sofia_B_2_3)
 LCreativeWorld_Sofia_B_2_3=matrix(LCreativeWorld_Sofia_B_2_3,nrow=6,ncol=22)
@@ -761,7 +761,7 @@ PosPN_PawPatrol_A_2_10
 ## Laugh:
 PN_PawPatrol_A_2_10=read.xlsx("PN_PawPatrol_A_2.10.14.xlsx",header=T,1)
 PN_PawPatrol_A_2_10t=t(PN_PawPatrol_A_2_10)
-LPN_PawPatrol_A_2_10=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LPN_PawPatrol_A_2_10=data.frame(PN_PawPatrol_A_2_10[c(9,12,15,18,21,24),])
 LPN_PawPatrol_A_2_10=as.matrix(LPN_PawPatrol_A_2_10)
 LPN_PawPatrol_A_2_10=as.numeric(LPN_PawPatrol_A_2_10)
 LPN_PawPatrol_A_2_10=matrix(LPN_PawPatrol_A_2_10,nrow=6,ncol=22)
@@ -796,7 +796,7 @@ PosPN_Sesame_A_2_10
 ## Laugh:
 PN_Sesame_A_2_10=read.xlsx("PN_Sesame_A_2.10.14.xlsx",header=T,1)
 PN_Sesame_A_2_10t=t(PN_Sesame_A_2_10)
-LPN_Sesame_A_2_10=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LPN_Sesame_A_2_10=data.frame(PN_Sesame_A_2_10[c(9,12,15,18,21,24),])
 LPN_Sesame_A_2_10=as.matrix(LPN_Sesame_A_2_10)
 LPN_Sesame_A_2_10=as.numeric(LPN_Sesame_A_2_10)
 LPN_Sesame_A_2_10=matrix(LPN_Sesame_A_2_10,nrow=6,ncol=50)
@@ -831,7 +831,7 @@ PosPN_Sofia_A_2_10
 ## Laugh:
 PN_Sofia_A_2_10=read.xlsx("PN_Sofia_A_2.10.14.xlsx",header=T,1)
 PN_Sofia_A_2_10t=t(PN_Sofia_A_2_10)
-LPN_Sofia_A_2_10=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LPN_Sofia_A_2_10=data.frame(PN_Sofia_A_2_10[c(9,12,15,18,21,24),])
 LPN_Sofia_A_2_10=as.matrix(LPN_Sofia_A_2_10)
 LPN_Sofia_A_2_10=as.numeric(LPN_Sofia_A_2_10)
 LPN_Sofia_A_2_10=matrix(LPN_Sofia_A_2_10,nrow=6,ncol=22)
@@ -866,7 +866,7 @@ PosPN_PawPatrol_B_2_10
 ## Laugh:
 PN_PawPatrol_B_2_10=read.xlsx("PN_PawPatrol_B_2.10.14.xlsx",header=T,1)
 PN_PawPatrol_B_2_10t=t(PN_PawPatrol_B_2_10)
-LPN_PawPatrol_B_2_10=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LPN_PawPatrol_B_2_10=data.frame(PN_PawPatrol_B_2_10[c(9,12,15,18,21,24),])
 LPN_PawPatrol_B_2_10=as.matrix(LPN_PawPatrol_B_2_10)
 LPN_PawPatrol_B_2_10=as.numeric(LPN_PawPatrol_B_2_10)
 LPN_PawPatrol_B_2_10=matrix(LPN_PawPatrol_B_2_10,nrow=6,ncol=22)
@@ -901,7 +901,7 @@ PosPN_Sesame_B_2_10
 ## Laugh:
 PN_Sesame_B_2_10=read.xlsx("PN_Sesame_B_2.10.14.xlsx",header=T,1)
 PN_Sesame_B_2_10t=t(PN_Sesame_B_2_10)
-LPN_Sesame_B_2_10=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LPN_Sesame_B_2_10=data.frame(PN_Sesame_B_2_10[c(9,12,15,18,21,24),])
 LPN_Sesame_B_2_10=as.matrix(LPN_Sesame_B_2_10)
 LPN_Sesame_B_2_10=as.numeric(LPN_Sesame_B_2_10)
 LPN_Sesame_B_2_10=matrix(LPN_Sesame_B_2_10,nrow=6,ncol=50)
@@ -936,7 +936,7 @@ PosPN_Sofia_B_2_10
 ## Laugh:
 PN_Sofia_B_2_10=read.xlsx("PN_Sofia_B_2.10.14.xlsx",header=T,1)
 PN_Sofia_B_2_10t=t(PN_Sofia_B_2_10)
-LPN_Sofia_B_2_10=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LPN_Sofia_B_2_10=data.frame(PN_Sofia_B_2_10[c(9,12,15,18,21,24),])
 LPN_Sofia_B_2_10=as.matrix(LPN_Sofia_B_2_10)
 LPN_Sofia_B_2_10=as.numeric(LPN_Sofia_B_2_10)
 LPN_Sofia_B_2_10=matrix(LPN_Sofia_B_2_10,nrow=6,ncol=22)
@@ -971,7 +971,7 @@ PosRosiesDaycare_PawPatrol_A_2_12
 ## Laugh:
 RosiesDaycare_PawPatrol_A_2_12=read.xlsx("RosiesDaycare_PawPatrol_A_2.12.14.xlsx",header=T,1)
 RosiesDaycare_PawPatrol_A_2_12t=t(RosiesDaycare_PawPatrol_A_2_12)
-LRosiesDaycare_PawPatrol_A_2_12=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LRosiesDaycare_PawPatrol_A_2_12=data.frame(RosiesDaycare_PawPatrol_A_2_12[c(9,12,15,18,21,24),])
 LRosiesDaycare_PawPatrol_A_2_12=as.matrix(LRosiesDaycare_PawPatrol_A_2_12)
 LRosiesDaycare_PawPatrol_A_2_12=as.numeric(LRosiesDaycare_PawPatrol_A_2_12)
 LRosiesDaycare_PawPatrol_A_2_12=matrix(LRosiesDaycare_PawPatrol_A_2_12,nrow=6,ncol=22)
@@ -1006,7 +1006,7 @@ PosRosiesDaycare_Sesame_A_2_12
 ## Laugh:
 RosiesDaycare_Sesame_A_2_12=read.xlsx("RosiesDaycare_Sesame_A_2.12.14.xlsx",header=T,1)
 RosiesDaycare_Sesame_A_2_12t=t(RosiesDaycare_Sesame_A_2_12)
-LRosiesDaycare_Sesame_A_2_12=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LRosiesDaycare_Sesame_A_2_12=data.frame(RosiesDaycare_Sesame_A_2_12[c(9,12,15,18,21,24),])
 LRosiesDaycare_Sesame_A_2_12=as.matrix(LRosiesDaycare_Sesame_A_2_12)
 LRosiesDaycare_Sesame_A_2_12=as.numeric(LRosiesDaycare_Sesame_A_2_12)
 LRosiesDaycare_Sesame_A_2_12=matrix(LRosiesDaycare_Sesame_A_2_12,nrow=6,ncol=50)
@@ -1041,7 +1041,7 @@ PosRosiesDaycare_Sofia_A_2_12
 ## Laugh:
 RosiesDaycare_Sofia_A_2_12=read.xlsx("RosiesDaycare_Sofia_A_2.12.14.xlsx",header=T,1)
 RosiesDaycare_Sofia_A_2_12t=t(RosiesDaycare_Sofia_A_2_12)
-LRosiesDaycare_Sofia_A_2_12=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LRosiesDaycare_Sofia_A_2_12=data.frame(RosiesDaycare_Sofia_A_2_12[c(9,12,15,18,21,24),])
 LRosiesDaycare_Sofia_A_2_12=as.matrix(LRosiesDaycare_Sofia_A_2_12)
 LRosiesDaycare_Sofia_A_2_12=as.numeric(LRosiesDaycare_Sofia_A_2_12)
 LRosiesDaycare_Sofia_A_2_12=matrix(LRosiesDaycare_Sofia_A_2_12,nrow=6,ncol=22)
@@ -1076,7 +1076,7 @@ PosRosiesDaycare_PawPatrol_B_2_12
 ## Laugh:
 RosiesDaycare_PawPatrol_B_2_12=read.xlsx("RosiesDaycare_PawPatrol_B_2.12.14.xlsx",header=T,1)
 RosiesDaycare_PawPatrol_B_2_12t=t(RosiesDaycare_PawPatrol_B_2_12)
-LRosiesDaycare_PawPatrol_B_2_12=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LRosiesDaycare_PawPatrol_B_2_12=data.frame(RosiesDaycare_PawPatrol_B_2_12[c(9,12,15,18,21,24),])
 LRosiesDaycare_PawPatrol_B_2_12=as.matrix(LRosiesDaycare_PawPatrol_B_2_12)
 LRosiesDaycare_PawPatrol_B_2_12=as.numeric(LRosiesDaycare_PawPatrol_B_2_12)
 LRosiesDaycare_PawPatrol_B_2_12=matrix(LRosiesDaycare_PawPatrol_B_2_12,nrow=6,ncol=22)
@@ -1111,7 +1111,7 @@ PosRosiesDaycare_Sesame_B_2_12
 ## Laugh:
 RosiesDaycare_Sesame_B_2_12=read.xlsx("RosiesDaycare_Sesame_B_2.12.14.xlsx",header=T,1)
 RosiesDaycare_Sesame_B_2_12t=t(RosiesDaycare_Sesame_B_2_12)
-LRosiesDaycare_Sesame_B_2_12=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LRosiesDaycare_Sesame_B_2_12=data.frame(RosiesDaycare_Sesame_B_2_12[c(9,12,15,18,21,24),])
 LRosiesDaycare_Sesame_B_2_12=as.matrix(LRosiesDaycare_Sesame_B_2_12)
 LRosiesDaycare_Sesame_B_2_12=as.numeric(LRosiesDaycare_Sesame_B_2_12)
 LRosiesDaycare_Sesame_B_2_12=matrix(LRosiesDaycare_Sesame_B_2_12,nrow=6,ncol=50)
@@ -1146,7 +1146,7 @@ PosRosiesDaycare_Sofia_B_2_12
 ## Laugh:
 RosiesDaycare_Sofia_B_2_12=read.xlsx("RosiesDaycare_Sofia_B_2.12.14.xlsx",header=T,1)
 RosiesDaycare_Sofia_B_2_12t=t(RosiesDaycare_Sofia_B_2_12)
-LRosiesDaycare_Sofia_B_2_12=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LRosiesDaycare_Sofia_B_2_12=data.frame(RosiesDaycare_Sofia_B_2_12[c(9,12,15,18,21,24),])
 LRosiesDaycare_Sofia_B_2_12=as.matrix(LRosiesDaycare_Sofia_B_2_12)
 LRosiesDaycare_Sofia_B_2_12=as.numeric(LRosiesDaycare_Sofia_B_2_12)
 LRosiesDaycare_Sofia_B_2_12=matrix(LRosiesDaycare_Sofia_B_2_12,nrow=6,ncol=22)
@@ -1181,7 +1181,7 @@ PosTenderMemories_PawPatrol_A_2_4
 ## Laugh:
 TenderMemories_PawPatrol_A_2_4=read.xlsx("TenderMemories_PawPatrol_A_2.4.14.xlsx",header=T,1)
 TenderMemories_PawPatrol_A_2_4t=t(TenderMemories_PawPatrol_A_2_4)
-LTenderMemories_PawPatrol_A_2_4=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LTenderMemories_PawPatrol_A_2_4=data.frame(TenderMemories_PawPatrol_A_2_4[c(9,12,15,18,21,24),])
 LTenderMemories_PawPatrol_A_2_4=as.matrix(LTenderMemories_PawPatrol_A_2_4)
 LTenderMemories_PawPatrol_A_2_4=as.numeric(LTenderMemories_PawPatrol_A_2_4)
 LTenderMemories_PawPatrol_A_2_4=matrix(LTenderMemories_PawPatrol_A_2_4,nrow=6,ncol=22)
@@ -1216,7 +1216,7 @@ PosTenderMemories_Sesame_A_2_4
 ## Laugh:
 TenderMemories_Sesame_A_2_4=read.xlsx("TenderMemories_Sesame_A_2.4.14.xlsx",header=T,1)
 TenderMemories_Sesame_A_2_4t=t(TenderMemories_Sesame_A_2_4)
-LTenderMemories_Sesame_A_2_4=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LTenderMemories_Sesame_A_2_4=data.frame(TenderMemories_Sesame_A_2_4[c(9,12,15,18,21,24),])
 LTenderMemories_Sesame_A_2_4=as.matrix(LTenderMemories_Sesame_A_2_4)
 LTenderMemories_Sesame_A_2_4=as.numeric(LTenderMemories_Sesame_A_2_4)
 LTenderMemories_Sesame_A_2_4=matrix(LTenderMemories_Sesame_A_2_4,nrow=6,ncol=50)
@@ -1251,7 +1251,7 @@ PosTenderMemories_Sofia_A_2_4
 ## Laugh:
 TenderMemories_Sofia_A_2_4=read.xlsx("TenderMemories_Sofia_A_2.4.14.xlsx",header=T,1)
 TenderMemories_Sofia_A_2_4t=t(TenderMemories_Sofia_A_2_4)
-LTenderMemories_Sofia_A_2_4=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LTenderMemories_Sofia_A_2_4=data.frame(TenderMemories_Sofia_A_2_4[c(9,12,15,18,21,24),])
 LTenderMemories_Sofia_A_2_4=as.matrix(LTenderMemories_Sofia_A_2_4)
 LTenderMemories_Sofia_A_2_4=as.numeric(LTenderMemories_Sofia_A_2_4)
 LTenderMemories_Sofia_A_2_4=matrix(LTenderMemories_Sofia_A_2_4,nrow=6,ncol=22)
@@ -1286,7 +1286,7 @@ PosTenderMemories_PawPatrol_B_2_4
 ## Laugh:
 TenderMemories_PawPatrol_B_2_4=read.xlsx("TenderMemories_PawPatrol_B_2.4.14.xlsx",header=T,1)
 TenderMemories_PawPatrol_B_2_4t=t(TenderMemories_PawPatrol_B_2_4)
-LTenderMemories_PawPatrol_B_2_4=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LTenderMemories_PawPatrol_B_2_4=data.frame(TenderMemories_PawPatrol_B_2_4[c(9,12,15,18,21,24),])
 LTenderMemories_PawPatrol_B_2_4=as.matrix(LTenderMemories_PawPatrol_B_2_4)
 LTenderMemories_PawPatrol_B_2_4=as.numeric(LTenderMemories_PawPatrol_B_2_4)
 LTenderMemories_PawPatrol_B_2_4=matrix(LTenderMemories_PawPatrol_B_2_4,nrow=6,ncol=22)
@@ -1321,7 +1321,7 @@ PosTenderMemories_Sesame_B_2_4
 ## Laugh:
 TenderMemories_Sesame_B_2_4=read.xlsx("TenderMemories_Sesame_B_2.4.14.xlsx",header=T,1)
 TenderMemories_Sesame_B_2_4t=t(TenderMemories_Sesame_B_2_4)
-LTenderMemories_Sesame_B_2_4=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LTenderMemories_Sesame_B_2_4=data.frame(TenderMemories_Sesame_B_2_4[c(9,12,15,18,21,24),])
 LTenderMemories_Sesame_B_2_4=as.matrix(LTenderMemories_Sesame_B_2_4)
 LTenderMemories_Sesame_B_2_4=as.numeric(LTenderMemories_Sesame_B_2_4)
 LTenderMemories_Sesame_B_2_4=matrix(LTenderMemories_Sesame_B_2_4,nrow=6,ncol=50)
@@ -1356,7 +1356,7 @@ PosTenderMemories_Sofia_B_2_4
 ## Laugh:
 TenderMemories_Sofia_B_2_4=read.xlsx("TenderMemories_Sofia_B_2.4.14.xlsx",header=T,1)
 TenderMemories_Sofia_B_2_4t=t(TenderMemories_Sofia_B_2_4)
-LTenderMemories_Sofia_B_2_4=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+LTenderMemories_Sofia_B_2_4=data.frame(TenderMemories_Sofia_B_2_4[c(9,12,15,18,21,24),])
 LTenderMemories_Sofia_B_2_4=as.matrix(LTenderMemories_Sofia_B_2_4)
 LTenderMemories_Sofia_B_2_4=as.numeric(LTenderMemories_Sofia_B_2_4)
 LTenderMemories_Sofia_B_2_4=matrix(LTenderMemories_Sofia_B_2_4,nrow=6,ncol=22)
