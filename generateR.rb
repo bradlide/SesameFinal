@@ -61,7 +61,7 @@ laugh_template =<<EOF
 ## Laugh:
 #{uid}=read.xlsx("#{filename}",header=T,1)
 #{uid}t=t(#{uid})
-L#{uid}=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
+L#{uid}=data.frame(#{uid}[c(9,12,15,18,21,24),])
 L#{uid}=as.matrix(L#{uid})
 L#{uid}=as.numeric(L#{uid})
 L#{uid}=matrix(L#{uid},nrow=6,ncol=#{ncol})
