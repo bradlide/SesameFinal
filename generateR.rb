@@ -59,7 +59,7 @@ end
 def print_laugh_template(filename, uid, ncol)
 laugh_template =<<EOF
 ## Laugh:
-#{uid}=read.xlsx("AngelsCare_PawPatrol_A_2.11.14.xlsx",header=T,1)
+#{uid}=read.xlsx("#{filename}",header=T,1)
 #{uid}t=t(#{uid})
 L#{uid}=data.frame(CWA2.3t[c(9,12,15,18,21,24),])
 L#{uid}=as.matrix(L#{uid})
