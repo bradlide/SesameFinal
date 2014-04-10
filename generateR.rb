@@ -1,16 +1,30 @@
 #!/usr/bin/env ruby
+require 'roo'
+require 'JSON'
+require 'byebug'
 
 def print_attention_template(filename, uid, ncol)
+s = Roo::Excelx.new(File.expand_path(filename))
+last  = s.last_column
+current = 7
+columns = []
+while last >= current and current <= last
+  columns << current
+  current += 3
+end
+columns = columns.join(', ')
+
 attention_template =<<EOF
 ## Attention:
+print("#{filename}, attention")
 #{uid}=read.xlsx("#{filename}",1)
 #{uid}t=t(#{uid})
-Att#{uid}=data.frame(#{uid}t[c(7,10,13,16,19,23),])
+Att#{uid}=data.frame(#{uid}t[c(#{columns}),])
 Att#{uid}=as.matrix(Att#{uid})
 Att#{uid}=as.numeric(Att#{uid},nrow=6,ncol=#{ncol})
 Att#{uid}=matrix(Att#{uid},nrow=6,ncol=#{ncol})
 Att#{uid}=colSums(Att#{uid},na.rm=T)
-Att#{uid}
+print(Att#{uid})
 
 EOF
 
@@ -22,6 +36,7 @@ end
 def print_total_template(filename, uid)
 total_template =<<EOF
 ## Total:
+print("#{filename}, total")
 #{uid}=read.xlsx("#{filename}",1)
 #{uid}t=t(#{uid})
 Total#{uid}=data.frame(#{uid}t[c(6),])
@@ -36,16 +51,27 @@ end
 
 
 def print_positive_template(filename, uid, ncol)
+s = Roo::Excelx.new(File.expand_path(filename))
+last  = s.last_column
+current = 8
+columns = []
+while last >= current and current <= last
+  columns << current
+  current += 3
+end
+columns = columns.join(', ')
+
 positive_template =<<EOF
 ## Positive:
+print("#{filename}, positive")
 #{uid}=read.xlsx("#{filename}",1)
 #{uid}t=t(#{uid})
-Pos#{uid}=data.frame(#{uid}t[c(8,11,14,17,20,23),])
+Pos#{uid}=data.frame(#{uid}t[c(#{columns}),])
 Pos#{uid}=as.matrix(Pos#{uid})
 Pos#{uid}=as.numeric(Pos#{uid})
 Pos#{uid}=matrix(Pos#{uid},nrow=6,ncol=#{ncol})
 Pos#{uid}=colSums(Pos#{uid},na.rm=T)
-Pos#{uid}
+print(Pos#{uid})
 
 EOF
 
@@ -57,11 +83,22 @@ end
 
 
 def print_laugh_template(filename, uid, ncol)
+s = Roo::Excelx.new(File.expand_path(filename))
+last  = s.last_column
+current = 9
+columns = []
+while last >= current and current <= last
+  columns << current
+  current += 3
+end
+columns = columns.join(', ')
+
 laugh_template =<<EOF
 ## Laugh:
+print("#{filename}, laugh")
 #{uid}=read.xlsx("#{filename}",header=T,1)
 #{uid}t=t(#{uid})
-L#{uid}=data.frame(#{uid}[c(9,12,15,18,21,24),])
+L#{uid}=data.frame(#{uid}t[c(#{columns}),])
 L#{uid}=as.matrix(L#{uid})
 L#{uid}=as.numeric(L#{uid})
 L#{uid}=matrix(L#{uid},nrow=6,ncol=#{ncol})
@@ -101,26 +138,38 @@ dates.uniq!
 
 # Loops 13 times for each date/ab combo
 puts "library(xlsx)"
+
+all_totals = Hash.new([])
+dates.each { |x| all_totals[x] = Hash.new }
 dates.each do |x|
   spreadsheets = meta.select { |y| y[:date_month] == x[:date_month] && y[:date_day] == x[:date_day] && y[:ab] == x[:ab] }
 
-  # For loop over each unique date/ab combo's spreadsheets
-  all_totals = Hash.new([])
+  # For loop over each unique date/ab combo's spreadsheets, 3 shows
   spreadsheets.each do |spreadsheet|
     ## CreativeWorld_Sesame_B_2.3.14.xlsx
     filename = "~/Google Drive/Sesame_Data/#{spreadsheet[:school]}_#{spreadsheet[:tv_show]}_#{spreadsheet[:ab]}_#{spreadsheet[:date_month]}.#{spreadsheet[:date_day]}.#{spreadsheet[:date_year]}.xlsx"
     uid      = "#{spreadsheet[:school]}_#{spreadsheet[:tv_show]}_#{spreadsheet[:ab]}_#{spreadsheet[:date_month]}_#{spreadsheet[:date_day]}"
-    all_totals[uid] = Hash.new([])
+    #all_totals[uid] = Hash.new([])
+    #all_totals[uid]["attention"] = Hash.new([])
+    #all_totals[uid]["total"]     = Hash.new([])
+    #all_totals[uid]["positive"]  = Hash.new([])
+    #all_totals[uid]["laugh"]     = Hash.new([])
 
     ncol = spreadsheet[:tv_show] =~ /[Ss]esame/ ? 50 : 22
 
-    all_totals[uid]["attention"] << print_attention_template(filename, uid, ncol)
-    all_totals[uid]["total"]     << print_total_template(filename, uid)
-    all_totals[uid]["positive"]  << print_positive_template(filename, uid, ncol)
-    all_totals[uid]["laugh"]     << print_laugh_template(filename, uid, ncol)
+    puts filename
+    puts uid
+    test = []
+    test << print_attention_template(filename, uid, ncol)
+    all_totals[x]["attention"] << print_attention_template(filename, uid, ncol)
+    all_totals[x]["total"]     << print_total_template(filename, uid)
+    all_totals[x]["positive"]  << print_positive_template(filename, uid, ncol)
+    all_totals[x]["laugh"]     << print_laugh_template(filename, uid, ncol)
   end
 
   #spreadsheets.each { |y| puts "#{x}: #{y}"}
 end
-
-
+  ## random = { "attention": { "uid": [ "blah" ] } }
+  all_totals.each_pair do |k|
+      p all_totals[k][x]
+  end
