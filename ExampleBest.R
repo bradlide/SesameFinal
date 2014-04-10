@@ -3,6 +3,12 @@ PawLaugh=data.frame()
 ## This loads up all of the XLSX files into an array for use later.
 files = list.files(path="~/Google Drive/Sesame_Data", pattern="*.xlsx")
 
+authors = data.frame()
+    school = I(c("Tukey", "Venables", "Tierney", "Ripley", "McNeil")),
+    tv_show = c("US", "Australia", "US", "UK", "Australia"),
+    ab = c("yes", rep("no", 4)))
+
+meta_data = vector()
 ## For loop over the list of file to parse the filenames to get what we want, i.e. school, tv show, dates, etc...
 for (file in files) {
   filename_parts = strsplit(file, "_")[[1]]
@@ -10,14 +16,15 @@ for (file in files) {
   tv_show    = filename_parts[2]
   ab         = filename_parts[3]
 
-  #c(school, tv_show, ab)
-  date_parts = strsplit(filename_parts[3], ".")[[1]]
+  date_parts = strsplit(filename_parts[4], "[.]")[[1]]
   date_month = date_parts[1]
   date_day   = date_parts[2]
   date_year  = date_parts[3]
-  #show(school, tv_show, ab, date_month, date_day, date_year)
-  print(school)
+
+  meta_data = data.frame(c(school, tv_show, ab, date_month, date_day, date_year))
 }
+
+print(meta_data)
 
 
 ACA2.11=read.xlsx("Angels Care Paw Patrol A 2-11-14.xlsx",1)
