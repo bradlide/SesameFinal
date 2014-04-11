@@ -175,8 +175,6 @@ end
   pp all_totals
 
   ## 4x
-  #all_totals.each_pair do |k|
-  #  all_totals[k].each_key do |x|
-  #    all_totals[k][x]
-  #  end
-  #end
+  all_totals.each_pair do |k,v|
+    all_totals[k].each_key { |cat| puts "rbind(#{all_totals[k][cat].join(', ')})" }
+  end
