@@ -133,7 +133,7 @@ files.each do |x|
 end
 
 dates = []
-meta.each { |x| dates << { date_month: x[:date_month], date_day: x[:date_day], ab: x[:ab] } }
+meta.each { |x| dates << { school: x[:school], ab: x[:ab], date_month: x[:date_month], date_day: x[:date_day], ab: x[:ab] } }
 dates.uniq!
 
 # Loops 13 times for each date/ab combo
@@ -187,3 +187,5 @@ end
       puts "rbind(#{all_totals[k][cat].join(', ')})"
     end
   end
+
+dates.each { |x| $stderr.puts x[:school] + "_" + x[:date_month] + "." + x[:date_day] + "_" + x[:ab] }
