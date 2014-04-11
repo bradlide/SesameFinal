@@ -162,8 +162,8 @@ dates.each do |x|
 
     ncol = spreadsheet[:tv_show] =~ /[Ss]esame/ ? 50 : 22
 
-    puts filename
-    puts uid
+    #puts filename
+    #puts uid
     all_totals[name]["attention"] << print_attention_template(filename, uid, ncol)
     all_totals[name]["total"]     << print_total_template(filename, uid)
     all_totals[name]["positive"]  << print_positive_template(filename, uid, ncol)
@@ -173,7 +173,7 @@ dates.each do |x|
   #spreadsheets.each { |y| puts "#{x}: #{y}"}
 end
   ## random = { "uid": { "category": [ "one", "two", "three" ] } }
-  pp all_totals
+  #pp all_totals
 
   ## 4x
   all_totals.each_pair do |k,v|

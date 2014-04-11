@@ -1,6 +1,4 @@
 library(xlsx)
-~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx
-AngelsCare_PawPatrol_A_2_11
 ## Attention:
 print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx, attention")
 AngelsCare_PawPatrol_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx",1)
@@ -40,8 +38,6 @@ LAngelsCare_PawPatrol_A_2_11=matrix(LAngelsCare_PawPatrol_A_2_11,nrow=6,ncol=22)
 LAngelsCare_PawPatrol_A_2_11=colSums(LAngelsCare_PawPatrol_A_2_11,na.rm=T)
 print(LAngelsCare_PawPatrol_A_2_11)
 
-~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx
-AngelsCare_Sesame_A_2_11
 ## Attention:
 print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx, attention")
 AngelsCare_Sesame_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx",1)
@@ -81,8 +77,6 @@ LAngelsCare_Sesame_A_2_11=matrix(LAngelsCare_Sesame_A_2_11,nrow=6,ncol=50)
 LAngelsCare_Sesame_A_2_11=colSums(LAngelsCare_Sesame_A_2_11,na.rm=T)
 print(LAngelsCare_Sesame_A_2_11)
 
-~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx
-AngelsCare_Sofia_A_2_11
 ## Attention:
 print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx, attention")
 AngelsCare_Sofia_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx",1)
@@ -122,8 +116,6 @@ LAngelsCare_Sofia_A_2_11=matrix(LAngelsCare_Sofia_A_2_11,nrow=6,ncol=22)
 LAngelsCare_Sofia_A_2_11=colSums(LAngelsCare_Sofia_A_2_11,na.rm=T)
 print(LAngelsCare_Sofia_A_2_11)
 
-~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx
-AngelsCare_PawPatrol_A_2_17
 ## Attention:
 print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx, attention")
 AngelsCare_PawPatrol_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx",1)
@@ -163,8 +155,6 @@ LAngelsCare_PawPatrol_A_2_17=matrix(LAngelsCare_PawPatrol_A_2_17,nrow=6,ncol=22)
 LAngelsCare_PawPatrol_A_2_17=colSums(LAngelsCare_PawPatrol_A_2_17,na.rm=T)
 print(LAngelsCare_PawPatrol_A_2_17)
 
-~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx
-AngelsCare_Sesame_A_2_17
 ## Attention:
 print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx, attention")
 AngelsCare_Sesame_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx",1)
@@ -204,8 +194,6 @@ LAngelsCare_Sesame_A_2_17=matrix(LAngelsCare_Sesame_A_2_17,nrow=6,ncol=50)
 LAngelsCare_Sesame_A_2_17=colSums(LAngelsCare_Sesame_A_2_17,na.rm=T)
 print(LAngelsCare_Sesame_A_2_17)
 
-~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx
-AngelsCare_Sofia_A_2_17
 ## Attention:
 print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx, attention")
 AngelsCare_Sofia_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx",1)
@@ -245,8 +233,6 @@ LAngelsCare_Sofia_A_2_17=matrix(LAngelsCare_Sofia_A_2_17,nrow=6,ncol=22)
 LAngelsCare_Sofia_A_2_17=colSums(LAngelsCare_Sofia_A_2_17,na.rm=T)
 print(LAngelsCare_Sofia_A_2_17)
 
-~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx
-AngelsCare_PawPatrol_B_2_11
 ## Attention:
 print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx, attention")
 AngelsCare_PawPatrol_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx",1)
@@ -286,8 +272,6 @@ LAngelsCare_PawPatrol_B_2_11=matrix(LAngelsCare_PawPatrol_B_2_11,nrow=6,ncol=22)
 LAngelsCare_PawPatrol_B_2_11=colSums(LAngelsCare_PawPatrol_B_2_11,na.rm=T)
 print(LAngelsCare_PawPatrol_B_2_11)
 
-~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx
-AngelsCare_Sesame_B_2_11
 ## Attention:
 print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx, attention")
 AngelsCare_Sesame_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx",1)
@@ -327,8 +311,6 @@ LAngelsCare_Sesame_B_2_11=matrix(LAngelsCare_Sesame_B_2_11,nrow=6,ncol=50)
 LAngelsCare_Sesame_B_2_11=colSums(LAngelsCare_Sesame_B_2_11,na.rm=T)
 print(LAngelsCare_Sesame_B_2_11)
 
-~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx
-AngelsCare_Sofia_B_2_11
 ## Attention:
 print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx, attention")
 AngelsCare_Sofia_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx",1)
@@ -368,8 +350,6 @@ LAngelsCare_Sofia_B_2_11=matrix(LAngelsCare_Sofia_B_2_11,nrow=6,ncol=22)
 LAngelsCare_Sofia_B_2_11=colSums(LAngelsCare_Sofia_B_2_11,na.rm=T)
 print(LAngelsCare_Sofia_B_2_11)
 
-~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx
-AngelsCare_PawPatrol_B_2_17
 ## Attention:
 print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx, attention")
 AngelsCare_PawPatrol_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx",1)
@@ -409,8 +389,6 @@ LAngelsCare_PawPatrol_B_2_17=matrix(LAngelsCare_PawPatrol_B_2_17,nrow=6,ncol=22)
 LAngelsCare_PawPatrol_B_2_17=colSums(LAngelsCare_PawPatrol_B_2_17,na.rm=T)
 print(LAngelsCare_PawPatrol_B_2_17)
 
-~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx
-AngelsCare_Sesame_B_2_17
 ## Attention:
 print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx, attention")
 AngelsCare_Sesame_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx",1)
@@ -450,8 +428,6 @@ LAngelsCare_Sesame_B_2_17=matrix(LAngelsCare_Sesame_B_2_17,nrow=6,ncol=50)
 LAngelsCare_Sesame_B_2_17=colSums(LAngelsCare_Sesame_B_2_17,na.rm=T)
 print(LAngelsCare_Sesame_B_2_17)
 
-~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx
-AngelsCare_Sofia_B_2_17
 ## Attention:
 print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx, attention")
 AngelsCare_Sofia_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx",1)
@@ -491,8 +467,6 @@ LAngelsCare_Sofia_B_2_17=matrix(LAngelsCare_Sofia_B_2_17,nrow=6,ncol=22)
 LAngelsCare_Sofia_B_2_17=colSums(LAngelsCare_Sofia_B_2_17,na.rm=T)
 print(LAngelsCare_Sofia_B_2_17)
 
-~/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx
-ASCA_PawPatrol_A_2_13
 ## Attention:
 print("~/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx, attention")
 ASCA_PawPatrol_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx",1)
@@ -532,8 +506,6 @@ LASCA_PawPatrol_A_2_13=matrix(LASCA_PawPatrol_A_2_13,nrow=6,ncol=22)
 LASCA_PawPatrol_A_2_13=colSums(LASCA_PawPatrol_A_2_13,na.rm=T)
 print(LASCA_PawPatrol_A_2_13)
 
-~/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx
-ASCA_Sesame_A_2_13
 ## Attention:
 print("~/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx, attention")
 ASCA_Sesame_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx",1)
@@ -573,8 +545,6 @@ LASCA_Sesame_A_2_13=matrix(LASCA_Sesame_A_2_13,nrow=6,ncol=50)
 LASCA_Sesame_A_2_13=colSums(LASCA_Sesame_A_2_13,na.rm=T)
 print(LASCA_Sesame_A_2_13)
 
-~/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx
-ASCA_Sofia_A_2_13
 ## Attention:
 print("~/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx, attention")
 ASCA_Sofia_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx",1)
@@ -614,8 +584,6 @@ LASCA_Sofia_A_2_13=matrix(LASCA_Sofia_A_2_13,nrow=6,ncol=22)
 LASCA_Sofia_A_2_13=colSums(LASCA_Sofia_A_2_13,na.rm=T)
 print(LASCA_Sofia_A_2_13)
 
-~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx
-CreativeWorld_PawPatrol_A_2_3
 ## Attention:
 print("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx, attention")
 CreativeWorld_PawPatrol_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx",1)
@@ -655,8 +623,6 @@ LCreativeWorld_PawPatrol_A_2_3=matrix(LCreativeWorld_PawPatrol_A_2_3,nrow=6,ncol
 LCreativeWorld_PawPatrol_A_2_3=colSums(LCreativeWorld_PawPatrol_A_2_3,na.rm=T)
 print(LCreativeWorld_PawPatrol_A_2_3)
 
-~/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx
-CreativeWorld_Sesame_A_2_3
 ## Attention:
 print("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx, attention")
 CreativeWorld_Sesame_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx",1)
@@ -696,8 +662,6 @@ LCreativeWorld_Sesame_A_2_3=matrix(LCreativeWorld_Sesame_A_2_3,nrow=6,ncol=50)
 LCreativeWorld_Sesame_A_2_3=colSums(LCreativeWorld_Sesame_A_2_3,na.rm=T)
 print(LCreativeWorld_Sesame_A_2_3)
 
-~/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx
-CreativeWorld_Sofia_A_2_3
 ## Attention:
 print("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx, attention")
 CreativeWorld_Sofia_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx",1)
@@ -737,8 +701,6 @@ LCreativeWorld_Sofia_A_2_3=matrix(LCreativeWorld_Sofia_A_2_3,nrow=6,ncol=22)
 LCreativeWorld_Sofia_A_2_3=colSums(LCreativeWorld_Sofia_A_2_3,na.rm=T)
 print(LCreativeWorld_Sofia_A_2_3)
 
-~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx
-CreativeWorld_PawPatrol_B_2_3
 ## Attention:
 print("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx, attention")
 CreativeWorld_PawPatrol_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx",1)
@@ -778,8 +740,6 @@ LCreativeWorld_PawPatrol_B_2_3=matrix(LCreativeWorld_PawPatrol_B_2_3,nrow=6,ncol
 LCreativeWorld_PawPatrol_B_2_3=colSums(LCreativeWorld_PawPatrol_B_2_3,na.rm=T)
 print(LCreativeWorld_PawPatrol_B_2_3)
 
-~/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx
-CreativeWorld_Sesame_B_2_3
 ## Attention:
 print("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx, attention")
 CreativeWorld_Sesame_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx",1)
@@ -819,8 +779,6 @@ LCreativeWorld_Sesame_B_2_3=matrix(LCreativeWorld_Sesame_B_2_3,nrow=6,ncol=50)
 LCreativeWorld_Sesame_B_2_3=colSums(LCreativeWorld_Sesame_B_2_3,na.rm=T)
 print(LCreativeWorld_Sesame_B_2_3)
 
-~/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx
-CreativeWorld_Sofia_B_2_3
 ## Attention:
 print("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx, attention")
 CreativeWorld_Sofia_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx",1)
@@ -860,8 +818,6 @@ LCreativeWorld_Sofia_B_2_3=matrix(LCreativeWorld_Sofia_B_2_3,nrow=6,ncol=22)
 LCreativeWorld_Sofia_B_2_3=colSums(LCreativeWorld_Sofia_B_2_3,na.rm=T)
 print(LCreativeWorld_Sofia_B_2_3)
 
-~/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx
-PN_PawPatrol_A_2_10
 ## Attention:
 print("~/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx, attention")
 PN_PawPatrol_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx",1)
@@ -901,8 +857,6 @@ LPN_PawPatrol_A_2_10=matrix(LPN_PawPatrol_A_2_10,nrow=6,ncol=22)
 LPN_PawPatrol_A_2_10=colSums(LPN_PawPatrol_A_2_10,na.rm=T)
 print(LPN_PawPatrol_A_2_10)
 
-~/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx
-PN_Sesame_A_2_10
 ## Attention:
 print("~/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx, attention")
 PN_Sesame_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx",1)
@@ -942,8 +896,6 @@ LPN_Sesame_A_2_10=matrix(LPN_Sesame_A_2_10,nrow=6,ncol=50)
 LPN_Sesame_A_2_10=colSums(LPN_Sesame_A_2_10,na.rm=T)
 print(LPN_Sesame_A_2_10)
 
-~/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx
-PN_Sofia_A_2_10
 ## Attention:
 print("~/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx, attention")
 PN_Sofia_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx",1)
@@ -983,8 +935,6 @@ LPN_Sofia_A_2_10=matrix(LPN_Sofia_A_2_10,nrow=6,ncol=22)
 LPN_Sofia_A_2_10=colSums(LPN_Sofia_A_2_10,na.rm=T)
 print(LPN_Sofia_A_2_10)
 
-~/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx
-PN_PawPatrol_B_2_10
 ## Attention:
 print("~/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx, attention")
 PN_PawPatrol_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx",1)
@@ -1024,8 +974,6 @@ LPN_PawPatrol_B_2_10=matrix(LPN_PawPatrol_B_2_10,nrow=6,ncol=22)
 LPN_PawPatrol_B_2_10=colSums(LPN_PawPatrol_B_2_10,na.rm=T)
 print(LPN_PawPatrol_B_2_10)
 
-~/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx
-PN_Sesame_B_2_10
 ## Attention:
 print("~/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx, attention")
 PN_Sesame_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx",1)
@@ -1065,8 +1013,6 @@ LPN_Sesame_B_2_10=matrix(LPN_Sesame_B_2_10,nrow=6,ncol=50)
 LPN_Sesame_B_2_10=colSums(LPN_Sesame_B_2_10,na.rm=T)
 print(LPN_Sesame_B_2_10)
 
-~/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx
-PN_Sofia_B_2_10
 ## Attention:
 print("~/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx, attention")
 PN_Sofia_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx",1)
@@ -1106,8 +1052,6 @@ LPN_Sofia_B_2_10=matrix(LPN_Sofia_B_2_10,nrow=6,ncol=22)
 LPN_Sofia_B_2_10=colSums(LPN_Sofia_B_2_10,na.rm=T)
 print(LPN_Sofia_B_2_10)
 
-~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx
-RosiesDaycare_PawPatrol_A_2_12
 ## Attention:
 print("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx, attention")
 RosiesDaycare_PawPatrol_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx",1)
@@ -1147,8 +1091,6 @@ LRosiesDaycare_PawPatrol_A_2_12=matrix(LRosiesDaycare_PawPatrol_A_2_12,nrow=6,nc
 LRosiesDaycare_PawPatrol_A_2_12=colSums(LRosiesDaycare_PawPatrol_A_2_12,na.rm=T)
 print(LRosiesDaycare_PawPatrol_A_2_12)
 
-~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx
-RosiesDaycare_Sesame_A_2_12
 ## Attention:
 print("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx, attention")
 RosiesDaycare_Sesame_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx",1)
@@ -1188,8 +1130,6 @@ LRosiesDaycare_Sesame_A_2_12=matrix(LRosiesDaycare_Sesame_A_2_12,nrow=6,ncol=50)
 LRosiesDaycare_Sesame_A_2_12=colSums(LRosiesDaycare_Sesame_A_2_12,na.rm=T)
 print(LRosiesDaycare_Sesame_A_2_12)
 
-~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx
-RosiesDaycare_Sofia_A_2_12
 ## Attention:
 print("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx, attention")
 RosiesDaycare_Sofia_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx",1)
@@ -1229,8 +1169,6 @@ LRosiesDaycare_Sofia_A_2_12=matrix(LRosiesDaycare_Sofia_A_2_12,nrow=6,ncol=22)
 LRosiesDaycare_Sofia_A_2_12=colSums(LRosiesDaycare_Sofia_A_2_12,na.rm=T)
 print(LRosiesDaycare_Sofia_A_2_12)
 
-~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx
-RosiesDaycare_PawPatrol_B_2_12
 ## Attention:
 print("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx, attention")
 RosiesDaycare_PawPatrol_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx",1)
@@ -1270,8 +1208,6 @@ LRosiesDaycare_PawPatrol_B_2_12=matrix(LRosiesDaycare_PawPatrol_B_2_12,nrow=6,nc
 LRosiesDaycare_PawPatrol_B_2_12=colSums(LRosiesDaycare_PawPatrol_B_2_12,na.rm=T)
 print(LRosiesDaycare_PawPatrol_B_2_12)
 
-~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx
-RosiesDaycare_Sesame_B_2_12
 ## Attention:
 print("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx, attention")
 RosiesDaycare_Sesame_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx",1)
@@ -1311,8 +1247,6 @@ LRosiesDaycare_Sesame_B_2_12=matrix(LRosiesDaycare_Sesame_B_2_12,nrow=6,ncol=50)
 LRosiesDaycare_Sesame_B_2_12=colSums(LRosiesDaycare_Sesame_B_2_12,na.rm=T)
 print(LRosiesDaycare_Sesame_B_2_12)
 
-~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx
-RosiesDaycare_Sofia_B_2_12
 ## Attention:
 print("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx, attention")
 RosiesDaycare_Sofia_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx",1)
@@ -1352,8 +1286,6 @@ LRosiesDaycare_Sofia_B_2_12=matrix(LRosiesDaycare_Sofia_B_2_12,nrow=6,ncol=22)
 LRosiesDaycare_Sofia_B_2_12=colSums(LRosiesDaycare_Sofia_B_2_12,na.rm=T)
 print(LRosiesDaycare_Sofia_B_2_12)
 
-~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx
-TenderMemories_PawPatrol_A_2_4
 ## Attention:
 print("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx, attention")
 TenderMemories_PawPatrol_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx",1)
@@ -1393,8 +1325,6 @@ LTenderMemories_PawPatrol_A_2_4=matrix(LTenderMemories_PawPatrol_A_2_4,nrow=6,nc
 LTenderMemories_PawPatrol_A_2_4=colSums(LTenderMemories_PawPatrol_A_2_4,na.rm=T)
 print(LTenderMemories_PawPatrol_A_2_4)
 
-~/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx
-TenderMemories_Sesame_A_2_4
 ## Attention:
 print("~/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx, attention")
 TenderMemories_Sesame_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx",1)
@@ -1434,8 +1364,6 @@ LTenderMemories_Sesame_A_2_4=matrix(LTenderMemories_Sesame_A_2_4,nrow=6,ncol=50)
 LTenderMemories_Sesame_A_2_4=colSums(LTenderMemories_Sesame_A_2_4,na.rm=T)
 print(LTenderMemories_Sesame_A_2_4)
 
-~/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx
-TenderMemories_Sofia_A_2_4
 ## Attention:
 print("~/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx, attention")
 TenderMemories_Sofia_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx",1)
@@ -1475,8 +1403,6 @@ LTenderMemories_Sofia_A_2_4=matrix(LTenderMemories_Sofia_A_2_4,nrow=6,ncol=22)
 LTenderMemories_Sofia_A_2_4=colSums(LTenderMemories_Sofia_A_2_4,na.rm=T)
 print(LTenderMemories_Sofia_A_2_4)
 
-~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx
-TenderMemories_PawPatrol_B_2_4
 ## Attention:
 print("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx, attention")
 TenderMemories_PawPatrol_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx",1)
@@ -1516,8 +1442,6 @@ LTenderMemories_PawPatrol_B_2_4=matrix(LTenderMemories_PawPatrol_B_2_4,nrow=6,nc
 LTenderMemories_PawPatrol_B_2_4=colSums(LTenderMemories_PawPatrol_B_2_4,na.rm=T)
 print(LTenderMemories_PawPatrol_B_2_4)
 
-~/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx
-TenderMemories_Sesame_B_2_4
 ## Attention:
 print("~/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx, attention")
 TenderMemories_Sesame_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx",1)
@@ -1557,8 +1481,6 @@ LTenderMemories_Sesame_B_2_4=matrix(LTenderMemories_Sesame_B_2_4,nrow=6,ncol=50)
 LTenderMemories_Sesame_B_2_4=colSums(LTenderMemories_Sesame_B_2_4,na.rm=T)
 print(LTenderMemories_Sesame_B_2_4)
 
-~/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx
-TenderMemories_Sofia_B_2_4
 ## Attention:
 print("~/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx, attention")
 TenderMemories_Sofia_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx",1)
@@ -1598,211 +1520,6 @@ LTenderMemories_Sofia_B_2_4=matrix(LTenderMemories_Sofia_B_2_4,nrow=6,ncol=22)
 LTenderMemories_Sofia_B_2_4=colSums(LTenderMemories_Sofia_B_2_4,na.rm=T)
 print(LTenderMemories_Sofia_B_2_4)
 
-{"2_11_A"=>
-  {"attention"=>
-    ["AttAngelsCare_PawPatrol_A_2_11",
-     "AttAngelsCare_Sesame_A_2_11",
-     "AttAngelsCare_Sofia_A_2_11"],
-   "total"=>
-    ["TotalAngelsCare_PawPatrol_A_2_11",
-     "TotalAngelsCare_Sesame_A_2_11",
-     "TotalAngelsCare_Sofia_A_2_11"],
-   "positive"=>
-    ["PosAngelsCare_PawPatrol_A_2_11",
-     "PosAngelsCare_Sesame_A_2_11",
-     "PosAngelsCare_Sofia_A_2_11"],
-   "laugh"=>
-    ["LAngelsCare_PawPatrol_A_2_11",
-     "LAngelsCare_Sesame_A_2_11",
-     "LAngelsCare_Sofia_A_2_11"]},
- "2_17_A"=>
-  {"attention"=>
-    ["AttAngelsCare_PawPatrol_A_2_17",
-     "AttAngelsCare_Sesame_A_2_17",
-     "AttAngelsCare_Sofia_A_2_17"],
-   "total"=>
-    ["TotalAngelsCare_PawPatrol_A_2_17",
-     "TotalAngelsCare_Sesame_A_2_17",
-     "TotalAngelsCare_Sofia_A_2_17"],
-   "positive"=>
-    ["PosAngelsCare_PawPatrol_A_2_17",
-     "PosAngelsCare_Sesame_A_2_17",
-     "PosAngelsCare_Sofia_A_2_17"],
-   "laugh"=>
-    ["LAngelsCare_PawPatrol_A_2_17",
-     "LAngelsCare_Sesame_A_2_17",
-     "LAngelsCare_Sofia_A_2_17"]},
- "2_11_B"=>
-  {"attention"=>
-    ["AttAngelsCare_PawPatrol_B_2_11",
-     "AttAngelsCare_Sesame_B_2_11",
-     "AttAngelsCare_Sofia_B_2_11"],
-   "total"=>
-    ["TotalAngelsCare_PawPatrol_B_2_11",
-     "TotalAngelsCare_Sesame_B_2_11",
-     "TotalAngelsCare_Sofia_B_2_11"],
-   "positive"=>
-    ["PosAngelsCare_PawPatrol_B_2_11",
-     "PosAngelsCare_Sesame_B_2_11",
-     "PosAngelsCare_Sofia_B_2_11"],
-   "laugh"=>
-    ["LAngelsCare_PawPatrol_B_2_11",
-     "LAngelsCare_Sesame_B_2_11",
-     "LAngelsCare_Sofia_B_2_11"]},
- "2_17_B"=>
-  {"attention"=>
-    ["AttAngelsCare_PawPatrol_B_2_17",
-     "AttAngelsCare_Sesame_B_2_17",
-     "AttAngelsCare_Sofia_B_2_17"],
-   "total"=>
-    ["TotalAngelsCare_PawPatrol_B_2_17",
-     "TotalAngelsCare_Sesame_B_2_17",
-     "TotalAngelsCare_Sofia_B_2_17"],
-   "positive"=>
-    ["PosAngelsCare_PawPatrol_B_2_17",
-     "PosAngelsCare_Sesame_B_2_17",
-     "PosAngelsCare_Sofia_B_2_17"],
-   "laugh"=>
-    ["LAngelsCare_PawPatrol_B_2_17",
-     "LAngelsCare_Sesame_B_2_17",
-     "LAngelsCare_Sofia_B_2_17"]},
- "2_13_A"=>
-  {"attention"=>
-    ["AttASCA_PawPatrol_A_2_13",
-     "AttASCA_Sesame_A_2_13",
-     "AttASCA_Sofia_A_2_13"],
-   "total"=>
-    ["TotalASCA_PawPatrol_A_2_13",
-     "TotalASCA_Sesame_A_2_13",
-     "TotalASCA_Sofia_A_2_13"],
-   "positive"=>
-    ["PosASCA_PawPatrol_A_2_13",
-     "PosASCA_Sesame_A_2_13",
-     "PosASCA_Sofia_A_2_13"],
-   "laugh"=>
-    ["LASCA_PawPatrol_A_2_13", "LASCA_Sesame_A_2_13", "LASCA_Sofia_A_2_13"]},
- "2_3_A"=>
-  {"attention"=>
-    ["AttCreativeWorld_PawPatrol_A_2_3",
-     "AttCreativeWorld_Sesame_A_2_3",
-     "AttCreativeWorld_Sofia_A_2_3"],
-   "total"=>
-    ["TotalCreativeWorld_PawPatrol_A_2_3",
-     "TotalCreativeWorld_Sesame_A_2_3",
-     "TotalCreativeWorld_Sofia_A_2_3"],
-   "positive"=>
-    ["PosCreativeWorld_PawPatrol_A_2_3",
-     "PosCreativeWorld_Sesame_A_2_3",
-     "PosCreativeWorld_Sofia_A_2_3"],
-   "laugh"=>
-    ["LCreativeWorld_PawPatrol_A_2_3",
-     "LCreativeWorld_Sesame_A_2_3",
-     "LCreativeWorld_Sofia_A_2_3"]},
- "2_3_B"=>
-  {"attention"=>
-    ["AttCreativeWorld_PawPatrol_B_2_3",
-     "AttCreativeWorld_Sesame_B_2_3",
-     "AttCreativeWorld_Sofia_B_2_3"],
-   "total"=>
-    ["TotalCreativeWorld_PawPatrol_B_2_3",
-     "TotalCreativeWorld_Sesame_B_2_3",
-     "TotalCreativeWorld_Sofia_B_2_3"],
-   "positive"=>
-    ["PosCreativeWorld_PawPatrol_B_2_3",
-     "PosCreativeWorld_Sesame_B_2_3",
-     "PosCreativeWorld_Sofia_B_2_3"],
-   "laugh"=>
-    ["LCreativeWorld_PawPatrol_B_2_3",
-     "LCreativeWorld_Sesame_B_2_3",
-     "LCreativeWorld_Sofia_B_2_3"]},
- "2_10_A"=>
-  {"attention"=>
-    ["AttPN_PawPatrol_A_2_10", "AttPN_Sesame_A_2_10", "AttPN_Sofia_A_2_10"],
-   "total"=>
-    ["TotalPN_PawPatrol_A_2_10",
-     "TotalPN_Sesame_A_2_10",
-     "TotalPN_Sofia_A_2_10"],
-   "positive"=>
-    ["PosPN_PawPatrol_A_2_10", "PosPN_Sesame_A_2_10", "PosPN_Sofia_A_2_10"],
-   "laugh"=>["LPN_PawPatrol_A_2_10", "LPN_Sesame_A_2_10", "LPN_Sofia_A_2_10"]},
- "2_10_B"=>
-  {"attention"=>
-    ["AttPN_PawPatrol_B_2_10", "AttPN_Sesame_B_2_10", "AttPN_Sofia_B_2_10"],
-   "total"=>
-    ["TotalPN_PawPatrol_B_2_10",
-     "TotalPN_Sesame_B_2_10",
-     "TotalPN_Sofia_B_2_10"],
-   "positive"=>
-    ["PosPN_PawPatrol_B_2_10", "PosPN_Sesame_B_2_10", "PosPN_Sofia_B_2_10"],
-   "laugh"=>["LPN_PawPatrol_B_2_10", "LPN_Sesame_B_2_10", "LPN_Sofia_B_2_10"]},
- "2_12_A"=>
-  {"attention"=>
-    ["AttRosiesDaycare_PawPatrol_A_2_12",
-     "AttRosiesDaycare_Sesame_A_2_12",
-     "AttRosiesDaycare_Sofia_A_2_12"],
-   "total"=>
-    ["TotalRosiesDaycare_PawPatrol_A_2_12",
-     "TotalRosiesDaycare_Sesame_A_2_12",
-     "TotalRosiesDaycare_Sofia_A_2_12"],
-   "positive"=>
-    ["PosRosiesDaycare_PawPatrol_A_2_12",
-     "PosRosiesDaycare_Sesame_A_2_12",
-     "PosRosiesDaycare_Sofia_A_2_12"],
-   "laugh"=>
-    ["LRosiesDaycare_PawPatrol_A_2_12",
-     "LRosiesDaycare_Sesame_A_2_12",
-     "LRosiesDaycare_Sofia_A_2_12"]},
- "2_12_B"=>
-  {"attention"=>
-    ["AttRosiesDaycare_PawPatrol_B_2_12",
-     "AttRosiesDaycare_Sesame_B_2_12",
-     "AttRosiesDaycare_Sofia_B_2_12"],
-   "total"=>
-    ["TotalRosiesDaycare_PawPatrol_B_2_12",
-     "TotalRosiesDaycare_Sesame_B_2_12",
-     "TotalRosiesDaycare_Sofia_B_2_12"],
-   "positive"=>
-    ["PosRosiesDaycare_PawPatrol_B_2_12",
-     "PosRosiesDaycare_Sesame_B_2_12",
-     "PosRosiesDaycare_Sofia_B_2_12"],
-   "laugh"=>
-    ["LRosiesDaycare_PawPatrol_B_2_12",
-     "LRosiesDaycare_Sesame_B_2_12",
-     "LRosiesDaycare_Sofia_B_2_12"]},
- "2_4_A"=>
-  {"attention"=>
-    ["AttTenderMemories_PawPatrol_A_2_4",
-     "AttTenderMemories_Sesame_A_2_4",
-     "AttTenderMemories_Sofia_A_2_4"],
-   "total"=>
-    ["TotalTenderMemories_PawPatrol_A_2_4",
-     "TotalTenderMemories_Sesame_A_2_4",
-     "TotalTenderMemories_Sofia_A_2_4"],
-   "positive"=>
-    ["PosTenderMemories_PawPatrol_A_2_4",
-     "PosTenderMemories_Sesame_A_2_4",
-     "PosTenderMemories_Sofia_A_2_4"],
-   "laugh"=>
-    ["LTenderMemories_PawPatrol_A_2_4",
-     "LTenderMemories_Sesame_A_2_4",
-     "LTenderMemories_Sofia_A_2_4"]},
- "2_4_B"=>
-  {"attention"=>
-    ["AttTenderMemories_PawPatrol_B_2_4",
-     "AttTenderMemories_Sesame_B_2_4",
-     "AttTenderMemories_Sofia_B_2_4"],
-   "total"=>
-    ["TotalTenderMemories_PawPatrol_B_2_4",
-     "TotalTenderMemories_Sesame_B_2_4",
-     "TotalTenderMemories_Sofia_B_2_4"],
-   "positive"=>
-    ["PosTenderMemories_PawPatrol_B_2_4",
-     "PosTenderMemories_Sesame_B_2_4",
-     "PosTenderMemories_Sofia_B_2_4"],
-   "laugh"=>
-    ["LTenderMemories_PawPatrol_B_2_4",
-     "LTenderMemories_Sesame_B_2_4",
-     "LTenderMemories_Sofia_B_2_4"]}}
 rbind(AttAngelsCare_Sesame_A_2_11, AttAngelsCare_Sofia_A_2_11, AttAngelsCare_PawPatrol_A_2_11)
 rbind(TotalAngelsCare_Sesame_A_2_11, TotalAngelsCare_Sofia_A_2_11, TotalAngelsCare_PawPatrol_A_2_11)
 rbind(PosAngelsCare_Sesame_A_2_11, PosAngelsCare_Sofia_A_2_11, PosAngelsCare_PawPatrol_A_2_11)
