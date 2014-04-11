@@ -4,6 +4,7 @@ require 'pp'
 
 def print_attention_template(filename, uid, ncol)
 s = Roo::Excelx.new(File.expand_path(filename))
+puts filename
 last  = s.last_column
 current = 7
 columns = []
@@ -128,7 +129,7 @@ files.each do |x|
   date_day   = date_parts[1]
   date_year  = date_parts[2]
 
-  meta << { school: school, tv_show: tv_show, ab: ab, date_month: date_month, date_day: date_day, date_year: date_year }
+  meta << { school: school, tv_show: tv_show, ab: ab, date_month: date_month, date_day: date_day, date_year: date_year, filename: x }
 end
 
 dates = []
@@ -156,8 +157,7 @@ dates.each do |x|
   # For loop over each unique date/ab combo's spreadsheets, 3 shows
   spreadsheets.sort! { |a,b| a[:tv_show] <=> b[:tv_show] }
   spreadsheets.each do |spreadsheet|
-    ## CreativeWorld_Sesame_B_2.3.14.xlsx
-    filename = "~/Google Drive/Sesame_Data/#{spreadsheet[:school]}_#{spreadsheet[:tv_show]}_#{spreadsheet[:ab]}_#{spreadsheet[:date_month]}.#{spreadsheet[:date_day]}.#{spreadsheet[:date_year]}.xlsx"
+    filename = spreadsheet[:filename]
     uid      = "#{spreadsheet[:school]}_#{spreadsheet[:tv_show]}_#{spreadsheet[:ab]}_#{spreadsheet[:date_month]}_#{spreadsheet[:date_day]}"
 
     ncol = spreadsheet[:tv_show] =~ /[Ss]esame/ ? 50 : 22

@@ -1,7 +1,8 @@
 library(xlsx)
+/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx, attention")
-AngelsCare_PawPatrol_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx, attention")
+AngelsCare_PawPatrol_A_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx",1)
 AngelsCare_PawPatrol_A_2_11t=t(AngelsCare_PawPatrol_A_2_11)
 AttAngelsCare_PawPatrol_A_2_11=data.frame(AngelsCare_PawPatrol_A_2_11t[c(7, 10, 13, 16, 19, 22),])
 AttAngelsCare_PawPatrol_A_2_11=as.matrix(AttAngelsCare_PawPatrol_A_2_11)
@@ -11,14 +12,14 @@ AttAngelsCare_PawPatrol_A_2_11=colSums(AttAngelsCare_PawPatrol_A_2_11,na.rm=T)
 print(AttAngelsCare_PawPatrol_A_2_11)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx, total")
-AngelsCare_PawPatrol_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx, total")
+AngelsCare_PawPatrol_A_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx",1)
 AngelsCare_PawPatrol_A_2_11t=t(AngelsCare_PawPatrol_A_2_11)
 TotalAngelsCare_PawPatrol_A_2_11=data.frame(AngelsCare_PawPatrol_A_2_11t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx, positive")
-AngelsCare_PawPatrol_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx, positive")
+AngelsCare_PawPatrol_A_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx",1)
 AngelsCare_PawPatrol_A_2_11t=t(AngelsCare_PawPatrol_A_2_11)
 PosAngelsCare_PawPatrol_A_2_11=data.frame(AngelsCare_PawPatrol_A_2_11t[c(8, 11, 14, 17, 20, 23),])
 PosAngelsCare_PawPatrol_A_2_11=as.matrix(PosAngelsCare_PawPatrol_A_2_11)
@@ -28,8 +29,8 @@ PosAngelsCare_PawPatrol_A_2_11=colSums(PosAngelsCare_PawPatrol_A_2_11,na.rm=T)
 print(PosAngelsCare_PawPatrol_A_2_11)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx, laugh")
-AngelsCare_PawPatrol_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx, laugh")
+AngelsCare_PawPatrol_A_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.11.14.xlsx",header=T,1)
 AngelsCare_PawPatrol_A_2_11t=t(AngelsCare_PawPatrol_A_2_11)
 LAngelsCare_PawPatrol_A_2_11=data.frame(AngelsCare_PawPatrol_A_2_11t[c(9, 12, 15, 18, 21, 24),])
 LAngelsCare_PawPatrol_A_2_11=as.matrix(LAngelsCare_PawPatrol_A_2_11)
@@ -38,9 +39,10 @@ LAngelsCare_PawPatrol_A_2_11=matrix(LAngelsCare_PawPatrol_A_2_11,nrow=6,ncol=22)
 LAngelsCare_PawPatrol_A_2_11=colSums(LAngelsCare_PawPatrol_A_2_11,na.rm=T)
 print(LAngelsCare_PawPatrol_A_2_11)
 
+/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx, attention")
-AngelsCare_Sesame_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx, attention")
+AngelsCare_Sesame_A_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx",1)
 AngelsCare_Sesame_A_2_11t=t(AngelsCare_Sesame_A_2_11)
 AttAngelsCare_Sesame_A_2_11=data.frame(AngelsCare_Sesame_A_2_11t[c(7, 10, 13, 16, 19, 22),])
 AttAngelsCare_Sesame_A_2_11=as.matrix(AttAngelsCare_Sesame_A_2_11)
@@ -50,14 +52,14 @@ AttAngelsCare_Sesame_A_2_11=colSums(AttAngelsCare_Sesame_A_2_11,na.rm=T)
 print(AttAngelsCare_Sesame_A_2_11)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx, total")
-AngelsCare_Sesame_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx, total")
+AngelsCare_Sesame_A_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx",1)
 AngelsCare_Sesame_A_2_11t=t(AngelsCare_Sesame_A_2_11)
 TotalAngelsCare_Sesame_A_2_11=data.frame(AngelsCare_Sesame_A_2_11t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx, positive")
-AngelsCare_Sesame_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx, positive")
+AngelsCare_Sesame_A_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx",1)
 AngelsCare_Sesame_A_2_11t=t(AngelsCare_Sesame_A_2_11)
 PosAngelsCare_Sesame_A_2_11=data.frame(AngelsCare_Sesame_A_2_11t[c(8, 11, 14, 17, 20, 23),])
 PosAngelsCare_Sesame_A_2_11=as.matrix(PosAngelsCare_Sesame_A_2_11)
@@ -67,8 +69,8 @@ PosAngelsCare_Sesame_A_2_11=colSums(PosAngelsCare_Sesame_A_2_11,na.rm=T)
 print(PosAngelsCare_Sesame_A_2_11)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx, laugh")
-AngelsCare_Sesame_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx, laugh")
+AngelsCare_Sesame_A_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.11.14.xlsx",header=T,1)
 AngelsCare_Sesame_A_2_11t=t(AngelsCare_Sesame_A_2_11)
 LAngelsCare_Sesame_A_2_11=data.frame(AngelsCare_Sesame_A_2_11t[c(9, 12, 15, 18, 21, 24),])
 LAngelsCare_Sesame_A_2_11=as.matrix(LAngelsCare_Sesame_A_2_11)
@@ -77,9 +79,10 @@ LAngelsCare_Sesame_A_2_11=matrix(LAngelsCare_Sesame_A_2_11,nrow=6,ncol=50)
 LAngelsCare_Sesame_A_2_11=colSums(LAngelsCare_Sesame_A_2_11,na.rm=T)
 print(LAngelsCare_Sesame_A_2_11)
 
+/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx, attention")
-AngelsCare_Sofia_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx, attention")
+AngelsCare_Sofia_A_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx",1)
 AngelsCare_Sofia_A_2_11t=t(AngelsCare_Sofia_A_2_11)
 AttAngelsCare_Sofia_A_2_11=data.frame(AngelsCare_Sofia_A_2_11t[c(7, 10, 13, 16, 19, 22),])
 AttAngelsCare_Sofia_A_2_11=as.matrix(AttAngelsCare_Sofia_A_2_11)
@@ -89,14 +92,14 @@ AttAngelsCare_Sofia_A_2_11=colSums(AttAngelsCare_Sofia_A_2_11,na.rm=T)
 print(AttAngelsCare_Sofia_A_2_11)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx, total")
-AngelsCare_Sofia_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx, total")
+AngelsCare_Sofia_A_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx",1)
 AngelsCare_Sofia_A_2_11t=t(AngelsCare_Sofia_A_2_11)
 TotalAngelsCare_Sofia_A_2_11=data.frame(AngelsCare_Sofia_A_2_11t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx, positive")
-AngelsCare_Sofia_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx, positive")
+AngelsCare_Sofia_A_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx",1)
 AngelsCare_Sofia_A_2_11t=t(AngelsCare_Sofia_A_2_11)
 PosAngelsCare_Sofia_A_2_11=data.frame(AngelsCare_Sofia_A_2_11t[c(8, 11, 14, 17, 20, 23),])
 PosAngelsCare_Sofia_A_2_11=as.matrix(PosAngelsCare_Sofia_A_2_11)
@@ -106,8 +109,8 @@ PosAngelsCare_Sofia_A_2_11=colSums(PosAngelsCare_Sofia_A_2_11,na.rm=T)
 print(PosAngelsCare_Sofia_A_2_11)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx, laugh")
-AngelsCare_Sofia_A_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx, laugh")
+AngelsCare_Sofia_A_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.11.14.xlsx",header=T,1)
 AngelsCare_Sofia_A_2_11t=t(AngelsCare_Sofia_A_2_11)
 LAngelsCare_Sofia_A_2_11=data.frame(AngelsCare_Sofia_A_2_11t[c(9, 12, 15, 18, 21, 24),])
 LAngelsCare_Sofia_A_2_11=as.matrix(LAngelsCare_Sofia_A_2_11)
@@ -116,9 +119,10 @@ LAngelsCare_Sofia_A_2_11=matrix(LAngelsCare_Sofia_A_2_11,nrow=6,ncol=22)
 LAngelsCare_Sofia_A_2_11=colSums(LAngelsCare_Sofia_A_2_11,na.rm=T)
 print(LAngelsCare_Sofia_A_2_11)
 
+/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx, attention")
-AngelsCare_PawPatrol_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx, attention")
+AngelsCare_PawPatrol_A_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx",1)
 AngelsCare_PawPatrol_A_2_17t=t(AngelsCare_PawPatrol_A_2_17)
 AttAngelsCare_PawPatrol_A_2_17=data.frame(AngelsCare_PawPatrol_A_2_17t[c(7, 10, 13, 16, 19, 22),])
 AttAngelsCare_PawPatrol_A_2_17=as.matrix(AttAngelsCare_PawPatrol_A_2_17)
@@ -128,14 +132,14 @@ AttAngelsCare_PawPatrol_A_2_17=colSums(AttAngelsCare_PawPatrol_A_2_17,na.rm=T)
 print(AttAngelsCare_PawPatrol_A_2_17)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx, total")
-AngelsCare_PawPatrol_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx, total")
+AngelsCare_PawPatrol_A_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx",1)
 AngelsCare_PawPatrol_A_2_17t=t(AngelsCare_PawPatrol_A_2_17)
 TotalAngelsCare_PawPatrol_A_2_17=data.frame(AngelsCare_PawPatrol_A_2_17t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx, positive")
-AngelsCare_PawPatrol_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx, positive")
+AngelsCare_PawPatrol_A_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx",1)
 AngelsCare_PawPatrol_A_2_17t=t(AngelsCare_PawPatrol_A_2_17)
 PosAngelsCare_PawPatrol_A_2_17=data.frame(AngelsCare_PawPatrol_A_2_17t[c(8, 11, 14, 17, 20, 23),])
 PosAngelsCare_PawPatrol_A_2_17=as.matrix(PosAngelsCare_PawPatrol_A_2_17)
@@ -145,8 +149,8 @@ PosAngelsCare_PawPatrol_A_2_17=colSums(PosAngelsCare_PawPatrol_A_2_17,na.rm=T)
 print(PosAngelsCare_PawPatrol_A_2_17)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx, laugh")
-AngelsCare_PawPatrol_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx, laugh")
+AngelsCare_PawPatrol_A_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_A_2.17.14.xlsx",header=T,1)
 AngelsCare_PawPatrol_A_2_17t=t(AngelsCare_PawPatrol_A_2_17)
 LAngelsCare_PawPatrol_A_2_17=data.frame(AngelsCare_PawPatrol_A_2_17t[c(9, 12, 15, 18, 21, 24),])
 LAngelsCare_PawPatrol_A_2_17=as.matrix(LAngelsCare_PawPatrol_A_2_17)
@@ -155,9 +159,10 @@ LAngelsCare_PawPatrol_A_2_17=matrix(LAngelsCare_PawPatrol_A_2_17,nrow=6,ncol=22)
 LAngelsCare_PawPatrol_A_2_17=colSums(LAngelsCare_PawPatrol_A_2_17,na.rm=T)
 print(LAngelsCare_PawPatrol_A_2_17)
 
+/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx, attention")
-AngelsCare_Sesame_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx, attention")
+AngelsCare_Sesame_A_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx",1)
 AngelsCare_Sesame_A_2_17t=t(AngelsCare_Sesame_A_2_17)
 AttAngelsCare_Sesame_A_2_17=data.frame(AngelsCare_Sesame_A_2_17t[c(7, 10, 13, 16, 19),])
 AttAngelsCare_Sesame_A_2_17=as.matrix(AttAngelsCare_Sesame_A_2_17)
@@ -167,14 +172,14 @@ AttAngelsCare_Sesame_A_2_17=colSums(AttAngelsCare_Sesame_A_2_17,na.rm=T)
 print(AttAngelsCare_Sesame_A_2_17)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx, total")
-AngelsCare_Sesame_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx, total")
+AngelsCare_Sesame_A_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx",1)
 AngelsCare_Sesame_A_2_17t=t(AngelsCare_Sesame_A_2_17)
 TotalAngelsCare_Sesame_A_2_17=data.frame(AngelsCare_Sesame_A_2_17t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx, positive")
-AngelsCare_Sesame_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx, positive")
+AngelsCare_Sesame_A_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx",1)
 AngelsCare_Sesame_A_2_17t=t(AngelsCare_Sesame_A_2_17)
 PosAngelsCare_Sesame_A_2_17=data.frame(AngelsCare_Sesame_A_2_17t[c(8, 11, 14, 17, 20),])
 PosAngelsCare_Sesame_A_2_17=as.matrix(PosAngelsCare_Sesame_A_2_17)
@@ -184,8 +189,8 @@ PosAngelsCare_Sesame_A_2_17=colSums(PosAngelsCare_Sesame_A_2_17,na.rm=T)
 print(PosAngelsCare_Sesame_A_2_17)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx, laugh")
-AngelsCare_Sesame_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx, laugh")
+AngelsCare_Sesame_A_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_A_2.17.14.xlsx",header=T,1)
 AngelsCare_Sesame_A_2_17t=t(AngelsCare_Sesame_A_2_17)
 LAngelsCare_Sesame_A_2_17=data.frame(AngelsCare_Sesame_A_2_17t[c(9, 12, 15, 18, 21),])
 LAngelsCare_Sesame_A_2_17=as.matrix(LAngelsCare_Sesame_A_2_17)
@@ -194,9 +199,10 @@ LAngelsCare_Sesame_A_2_17=matrix(LAngelsCare_Sesame_A_2_17,nrow=6,ncol=50)
 LAngelsCare_Sesame_A_2_17=colSums(LAngelsCare_Sesame_A_2_17,na.rm=T)
 print(LAngelsCare_Sesame_A_2_17)
 
+/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx, attention")
-AngelsCare_Sofia_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx, attention")
+AngelsCare_Sofia_A_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx",1)
 AngelsCare_Sofia_A_2_17t=t(AngelsCare_Sofia_A_2_17)
 AttAngelsCare_Sofia_A_2_17=data.frame(AngelsCare_Sofia_A_2_17t[c(7, 10, 13, 16, 19, 22),])
 AttAngelsCare_Sofia_A_2_17=as.matrix(AttAngelsCare_Sofia_A_2_17)
@@ -206,14 +212,14 @@ AttAngelsCare_Sofia_A_2_17=colSums(AttAngelsCare_Sofia_A_2_17,na.rm=T)
 print(AttAngelsCare_Sofia_A_2_17)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx, total")
-AngelsCare_Sofia_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx, total")
+AngelsCare_Sofia_A_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx",1)
 AngelsCare_Sofia_A_2_17t=t(AngelsCare_Sofia_A_2_17)
 TotalAngelsCare_Sofia_A_2_17=data.frame(AngelsCare_Sofia_A_2_17t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx, positive")
-AngelsCare_Sofia_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx, positive")
+AngelsCare_Sofia_A_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx",1)
 AngelsCare_Sofia_A_2_17t=t(AngelsCare_Sofia_A_2_17)
 PosAngelsCare_Sofia_A_2_17=data.frame(AngelsCare_Sofia_A_2_17t[c(8, 11, 14, 17, 20, 23),])
 PosAngelsCare_Sofia_A_2_17=as.matrix(PosAngelsCare_Sofia_A_2_17)
@@ -223,8 +229,8 @@ PosAngelsCare_Sofia_A_2_17=colSums(PosAngelsCare_Sofia_A_2_17,na.rm=T)
 print(PosAngelsCare_Sofia_A_2_17)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx, laugh")
-AngelsCare_Sofia_A_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx, laugh")
+AngelsCare_Sofia_A_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_A_2.17.14.xlsx",header=T,1)
 AngelsCare_Sofia_A_2_17t=t(AngelsCare_Sofia_A_2_17)
 LAngelsCare_Sofia_A_2_17=data.frame(AngelsCare_Sofia_A_2_17t[c(9, 12, 15, 18, 21, 24),])
 LAngelsCare_Sofia_A_2_17=as.matrix(LAngelsCare_Sofia_A_2_17)
@@ -233,9 +239,10 @@ LAngelsCare_Sofia_A_2_17=matrix(LAngelsCare_Sofia_A_2_17,nrow=6,ncol=22)
 LAngelsCare_Sofia_A_2_17=colSums(LAngelsCare_Sofia_A_2_17,na.rm=T)
 print(LAngelsCare_Sofia_A_2_17)
 
+/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx, attention")
-AngelsCare_PawPatrol_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx, attention")
+AngelsCare_PawPatrol_B_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx",1)
 AngelsCare_PawPatrol_B_2_11t=t(AngelsCare_PawPatrol_B_2_11)
 AttAngelsCare_PawPatrol_B_2_11=data.frame(AngelsCare_PawPatrol_B_2_11t[c(7, 10, 13, 16, 19, 22),])
 AttAngelsCare_PawPatrol_B_2_11=as.matrix(AttAngelsCare_PawPatrol_B_2_11)
@@ -245,14 +252,14 @@ AttAngelsCare_PawPatrol_B_2_11=colSums(AttAngelsCare_PawPatrol_B_2_11,na.rm=T)
 print(AttAngelsCare_PawPatrol_B_2_11)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx, total")
-AngelsCare_PawPatrol_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx, total")
+AngelsCare_PawPatrol_B_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx",1)
 AngelsCare_PawPatrol_B_2_11t=t(AngelsCare_PawPatrol_B_2_11)
 TotalAngelsCare_PawPatrol_B_2_11=data.frame(AngelsCare_PawPatrol_B_2_11t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx, positive")
-AngelsCare_PawPatrol_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx, positive")
+AngelsCare_PawPatrol_B_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx",1)
 AngelsCare_PawPatrol_B_2_11t=t(AngelsCare_PawPatrol_B_2_11)
 PosAngelsCare_PawPatrol_B_2_11=data.frame(AngelsCare_PawPatrol_B_2_11t[c(8, 11, 14, 17, 20, 23),])
 PosAngelsCare_PawPatrol_B_2_11=as.matrix(PosAngelsCare_PawPatrol_B_2_11)
@@ -262,8 +269,8 @@ PosAngelsCare_PawPatrol_B_2_11=colSums(PosAngelsCare_PawPatrol_B_2_11,na.rm=T)
 print(PosAngelsCare_PawPatrol_B_2_11)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx, laugh")
-AngelsCare_PawPatrol_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx, laugh")
+AngelsCare_PawPatrol_B_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.11.14.xlsx",header=T,1)
 AngelsCare_PawPatrol_B_2_11t=t(AngelsCare_PawPatrol_B_2_11)
 LAngelsCare_PawPatrol_B_2_11=data.frame(AngelsCare_PawPatrol_B_2_11t[c(9, 12, 15, 18, 21, 24),])
 LAngelsCare_PawPatrol_B_2_11=as.matrix(LAngelsCare_PawPatrol_B_2_11)
@@ -272,9 +279,10 @@ LAngelsCare_PawPatrol_B_2_11=matrix(LAngelsCare_PawPatrol_B_2_11,nrow=6,ncol=22)
 LAngelsCare_PawPatrol_B_2_11=colSums(LAngelsCare_PawPatrol_B_2_11,na.rm=T)
 print(LAngelsCare_PawPatrol_B_2_11)
 
+/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx, attention")
-AngelsCare_Sesame_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx, attention")
+AngelsCare_Sesame_B_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx",1)
 AngelsCare_Sesame_B_2_11t=t(AngelsCare_Sesame_B_2_11)
 AttAngelsCare_Sesame_B_2_11=data.frame(AngelsCare_Sesame_B_2_11t[c(7, 10, 13, 16, 19, 22),])
 AttAngelsCare_Sesame_B_2_11=as.matrix(AttAngelsCare_Sesame_B_2_11)
@@ -284,14 +292,14 @@ AttAngelsCare_Sesame_B_2_11=colSums(AttAngelsCare_Sesame_B_2_11,na.rm=T)
 print(AttAngelsCare_Sesame_B_2_11)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx, total")
-AngelsCare_Sesame_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx, total")
+AngelsCare_Sesame_B_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx",1)
 AngelsCare_Sesame_B_2_11t=t(AngelsCare_Sesame_B_2_11)
 TotalAngelsCare_Sesame_B_2_11=data.frame(AngelsCare_Sesame_B_2_11t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx, positive")
-AngelsCare_Sesame_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx, positive")
+AngelsCare_Sesame_B_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx",1)
 AngelsCare_Sesame_B_2_11t=t(AngelsCare_Sesame_B_2_11)
 PosAngelsCare_Sesame_B_2_11=data.frame(AngelsCare_Sesame_B_2_11t[c(8, 11, 14, 17, 20, 23),])
 PosAngelsCare_Sesame_B_2_11=as.matrix(PosAngelsCare_Sesame_B_2_11)
@@ -301,8 +309,8 @@ PosAngelsCare_Sesame_B_2_11=colSums(PosAngelsCare_Sesame_B_2_11,na.rm=T)
 print(PosAngelsCare_Sesame_B_2_11)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx, laugh")
-AngelsCare_Sesame_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx, laugh")
+AngelsCare_Sesame_B_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.11.14.xlsx",header=T,1)
 AngelsCare_Sesame_B_2_11t=t(AngelsCare_Sesame_B_2_11)
 LAngelsCare_Sesame_B_2_11=data.frame(AngelsCare_Sesame_B_2_11t[c(9, 12, 15, 18, 21, 24),])
 LAngelsCare_Sesame_B_2_11=as.matrix(LAngelsCare_Sesame_B_2_11)
@@ -311,9 +319,10 @@ LAngelsCare_Sesame_B_2_11=matrix(LAngelsCare_Sesame_B_2_11,nrow=6,ncol=50)
 LAngelsCare_Sesame_B_2_11=colSums(LAngelsCare_Sesame_B_2_11,na.rm=T)
 print(LAngelsCare_Sesame_B_2_11)
 
+/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx, attention")
-AngelsCare_Sofia_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx, attention")
+AngelsCare_Sofia_B_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx",1)
 AngelsCare_Sofia_B_2_11t=t(AngelsCare_Sofia_B_2_11)
 AttAngelsCare_Sofia_B_2_11=data.frame(AngelsCare_Sofia_B_2_11t[c(7, 10, 13, 16, 19, 22),])
 AttAngelsCare_Sofia_B_2_11=as.matrix(AttAngelsCare_Sofia_B_2_11)
@@ -323,14 +332,14 @@ AttAngelsCare_Sofia_B_2_11=colSums(AttAngelsCare_Sofia_B_2_11,na.rm=T)
 print(AttAngelsCare_Sofia_B_2_11)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx, total")
-AngelsCare_Sofia_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx, total")
+AngelsCare_Sofia_B_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx",1)
 AngelsCare_Sofia_B_2_11t=t(AngelsCare_Sofia_B_2_11)
 TotalAngelsCare_Sofia_B_2_11=data.frame(AngelsCare_Sofia_B_2_11t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx, positive")
-AngelsCare_Sofia_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx, positive")
+AngelsCare_Sofia_B_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx",1)
 AngelsCare_Sofia_B_2_11t=t(AngelsCare_Sofia_B_2_11)
 PosAngelsCare_Sofia_B_2_11=data.frame(AngelsCare_Sofia_B_2_11t[c(8, 11, 14, 17, 20, 23),])
 PosAngelsCare_Sofia_B_2_11=as.matrix(PosAngelsCare_Sofia_B_2_11)
@@ -340,8 +349,8 @@ PosAngelsCare_Sofia_B_2_11=colSums(PosAngelsCare_Sofia_B_2_11,na.rm=T)
 print(PosAngelsCare_Sofia_B_2_11)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx, laugh")
-AngelsCare_Sofia_B_2_11=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx, laugh")
+AngelsCare_Sofia_B_2_11=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.11.14.xlsx",header=T,1)
 AngelsCare_Sofia_B_2_11t=t(AngelsCare_Sofia_B_2_11)
 LAngelsCare_Sofia_B_2_11=data.frame(AngelsCare_Sofia_B_2_11t[c(9, 12, 15, 18, 21, 24),])
 LAngelsCare_Sofia_B_2_11=as.matrix(LAngelsCare_Sofia_B_2_11)
@@ -350,9 +359,10 @@ LAngelsCare_Sofia_B_2_11=matrix(LAngelsCare_Sofia_B_2_11,nrow=6,ncol=22)
 LAngelsCare_Sofia_B_2_11=colSums(LAngelsCare_Sofia_B_2_11,na.rm=T)
 print(LAngelsCare_Sofia_B_2_11)
 
+/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx, attention")
-AngelsCare_PawPatrol_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx, attention")
+AngelsCare_PawPatrol_B_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx",1)
 AngelsCare_PawPatrol_B_2_17t=t(AngelsCare_PawPatrol_B_2_17)
 AttAngelsCare_PawPatrol_B_2_17=data.frame(AngelsCare_PawPatrol_B_2_17t[c(7, 10, 13, 16, 19, 22),])
 AttAngelsCare_PawPatrol_B_2_17=as.matrix(AttAngelsCare_PawPatrol_B_2_17)
@@ -362,14 +372,14 @@ AttAngelsCare_PawPatrol_B_2_17=colSums(AttAngelsCare_PawPatrol_B_2_17,na.rm=T)
 print(AttAngelsCare_PawPatrol_B_2_17)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx, total")
-AngelsCare_PawPatrol_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx, total")
+AngelsCare_PawPatrol_B_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx",1)
 AngelsCare_PawPatrol_B_2_17t=t(AngelsCare_PawPatrol_B_2_17)
 TotalAngelsCare_PawPatrol_B_2_17=data.frame(AngelsCare_PawPatrol_B_2_17t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx, positive")
-AngelsCare_PawPatrol_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx, positive")
+AngelsCare_PawPatrol_B_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx",1)
 AngelsCare_PawPatrol_B_2_17t=t(AngelsCare_PawPatrol_B_2_17)
 PosAngelsCare_PawPatrol_B_2_17=data.frame(AngelsCare_PawPatrol_B_2_17t[c(8, 11, 14, 17, 20, 23),])
 PosAngelsCare_PawPatrol_B_2_17=as.matrix(PosAngelsCare_PawPatrol_B_2_17)
@@ -379,8 +389,8 @@ PosAngelsCare_PawPatrol_B_2_17=colSums(PosAngelsCare_PawPatrol_B_2_17,na.rm=T)
 print(PosAngelsCare_PawPatrol_B_2_17)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx, laugh")
-AngelsCare_PawPatrol_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx, laugh")
+AngelsCare_PawPatrol_B_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_PawPatrol_B_2.17.14.xlsx",header=T,1)
 AngelsCare_PawPatrol_B_2_17t=t(AngelsCare_PawPatrol_B_2_17)
 LAngelsCare_PawPatrol_B_2_17=data.frame(AngelsCare_PawPatrol_B_2_17t[c(9, 12, 15, 18, 21, 24),])
 LAngelsCare_PawPatrol_B_2_17=as.matrix(LAngelsCare_PawPatrol_B_2_17)
@@ -389,9 +399,10 @@ LAngelsCare_PawPatrol_B_2_17=matrix(LAngelsCare_PawPatrol_B_2_17,nrow=6,ncol=22)
 LAngelsCare_PawPatrol_B_2_17=colSums(LAngelsCare_PawPatrol_B_2_17,na.rm=T)
 print(LAngelsCare_PawPatrol_B_2_17)
 
+/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx, attention")
-AngelsCare_Sesame_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx, attention")
+AngelsCare_Sesame_B_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx",1)
 AngelsCare_Sesame_B_2_17t=t(AngelsCare_Sesame_B_2_17)
 AttAngelsCare_Sesame_B_2_17=data.frame(AngelsCare_Sesame_B_2_17t[c(7, 10, 13, 16, 19, 22),])
 AttAngelsCare_Sesame_B_2_17=as.matrix(AttAngelsCare_Sesame_B_2_17)
@@ -401,14 +412,14 @@ AttAngelsCare_Sesame_B_2_17=colSums(AttAngelsCare_Sesame_B_2_17,na.rm=T)
 print(AttAngelsCare_Sesame_B_2_17)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx, total")
-AngelsCare_Sesame_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx, total")
+AngelsCare_Sesame_B_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx",1)
 AngelsCare_Sesame_B_2_17t=t(AngelsCare_Sesame_B_2_17)
 TotalAngelsCare_Sesame_B_2_17=data.frame(AngelsCare_Sesame_B_2_17t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx, positive")
-AngelsCare_Sesame_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx, positive")
+AngelsCare_Sesame_B_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx",1)
 AngelsCare_Sesame_B_2_17t=t(AngelsCare_Sesame_B_2_17)
 PosAngelsCare_Sesame_B_2_17=data.frame(AngelsCare_Sesame_B_2_17t[c(8, 11, 14, 17, 20, 23),])
 PosAngelsCare_Sesame_B_2_17=as.matrix(PosAngelsCare_Sesame_B_2_17)
@@ -418,8 +429,8 @@ PosAngelsCare_Sesame_B_2_17=colSums(PosAngelsCare_Sesame_B_2_17,na.rm=T)
 print(PosAngelsCare_Sesame_B_2_17)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx, laugh")
-AngelsCare_Sesame_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx, laugh")
+AngelsCare_Sesame_B_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sesame_B_2.17.14.xlsx",header=T,1)
 AngelsCare_Sesame_B_2_17t=t(AngelsCare_Sesame_B_2_17)
 LAngelsCare_Sesame_B_2_17=data.frame(AngelsCare_Sesame_B_2_17t[c(9, 12, 15, 18, 21, 24),])
 LAngelsCare_Sesame_B_2_17=as.matrix(LAngelsCare_Sesame_B_2_17)
@@ -428,9 +439,10 @@ LAngelsCare_Sesame_B_2_17=matrix(LAngelsCare_Sesame_B_2_17,nrow=6,ncol=50)
 LAngelsCare_Sesame_B_2_17=colSums(LAngelsCare_Sesame_B_2_17,na.rm=T)
 print(LAngelsCare_Sesame_B_2_17)
 
+/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx, attention")
-AngelsCare_Sofia_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx, attention")
+AngelsCare_Sofia_B_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx",1)
 AngelsCare_Sofia_B_2_17t=t(AngelsCare_Sofia_B_2_17)
 AttAngelsCare_Sofia_B_2_17=data.frame(AngelsCare_Sofia_B_2_17t[c(7, 10, 13, 16, 19, 22),])
 AttAngelsCare_Sofia_B_2_17=as.matrix(AttAngelsCare_Sofia_B_2_17)
@@ -440,14 +452,14 @@ AttAngelsCare_Sofia_B_2_17=colSums(AttAngelsCare_Sofia_B_2_17,na.rm=T)
 print(AttAngelsCare_Sofia_B_2_17)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx, total")
-AngelsCare_Sofia_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx, total")
+AngelsCare_Sofia_B_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx",1)
 AngelsCare_Sofia_B_2_17t=t(AngelsCare_Sofia_B_2_17)
 TotalAngelsCare_Sofia_B_2_17=data.frame(AngelsCare_Sofia_B_2_17t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx, positive")
-AngelsCare_Sofia_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx, positive")
+AngelsCare_Sofia_B_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx",1)
 AngelsCare_Sofia_B_2_17t=t(AngelsCare_Sofia_B_2_17)
 PosAngelsCare_Sofia_B_2_17=data.frame(AngelsCare_Sofia_B_2_17t[c(8, 11, 14, 17, 20, 23),])
 PosAngelsCare_Sofia_B_2_17=as.matrix(PosAngelsCare_Sofia_B_2_17)
@@ -457,8 +469,8 @@ PosAngelsCare_Sofia_B_2_17=colSums(PosAngelsCare_Sofia_B_2_17,na.rm=T)
 print(PosAngelsCare_Sofia_B_2_17)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx, laugh")
-AngelsCare_Sofia_B_2_17=read.xlsx("~/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx, laugh")
+AngelsCare_Sofia_B_2_17=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/AngelsCare_Sofia_B_2.17.14.xlsx",header=T,1)
 AngelsCare_Sofia_B_2_17t=t(AngelsCare_Sofia_B_2_17)
 LAngelsCare_Sofia_B_2_17=data.frame(AngelsCare_Sofia_B_2_17t[c(9, 12, 15, 18, 21, 24),])
 LAngelsCare_Sofia_B_2_17=as.matrix(LAngelsCare_Sofia_B_2_17)
@@ -467,9 +479,10 @@ LAngelsCare_Sofia_B_2_17=matrix(LAngelsCare_Sofia_B_2_17,nrow=6,ncol=22)
 LAngelsCare_Sofia_B_2_17=colSums(LAngelsCare_Sofia_B_2_17,na.rm=T)
 print(LAngelsCare_Sofia_B_2_17)
 
+/Users/jbarnett/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx, attention")
-ASCA_PawPatrol_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx, attention")
+ASCA_PawPatrol_A_2_13=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx",1)
 ASCA_PawPatrol_A_2_13t=t(ASCA_PawPatrol_A_2_13)
 AttASCA_PawPatrol_A_2_13=data.frame(ASCA_PawPatrol_A_2_13t[c(7, 10, 13, 16, 19, 22, 25),])
 AttASCA_PawPatrol_A_2_13=as.matrix(AttASCA_PawPatrol_A_2_13)
@@ -479,14 +492,14 @@ AttASCA_PawPatrol_A_2_13=colSums(AttASCA_PawPatrol_A_2_13,na.rm=T)
 print(AttASCA_PawPatrol_A_2_13)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx, total")
-ASCA_PawPatrol_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx, total")
+ASCA_PawPatrol_A_2_13=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx",1)
 ASCA_PawPatrol_A_2_13t=t(ASCA_PawPatrol_A_2_13)
 TotalASCA_PawPatrol_A_2_13=data.frame(ASCA_PawPatrol_A_2_13t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx, positive")
-ASCA_PawPatrol_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx, positive")
+ASCA_PawPatrol_A_2_13=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx",1)
 ASCA_PawPatrol_A_2_13t=t(ASCA_PawPatrol_A_2_13)
 PosASCA_PawPatrol_A_2_13=data.frame(ASCA_PawPatrol_A_2_13t[c(8, 11, 14, 17, 20, 23, 26),])
 PosASCA_PawPatrol_A_2_13=as.matrix(PosASCA_PawPatrol_A_2_13)
@@ -496,8 +509,8 @@ PosASCA_PawPatrol_A_2_13=colSums(PosASCA_PawPatrol_A_2_13,na.rm=T)
 print(PosASCA_PawPatrol_A_2_13)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx, laugh")
-ASCA_PawPatrol_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx, laugh")
+ASCA_PawPatrol_A_2_13=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_PawPatrol_A_2.13.14.xlsx",header=T,1)
 ASCA_PawPatrol_A_2_13t=t(ASCA_PawPatrol_A_2_13)
 LASCA_PawPatrol_A_2_13=data.frame(ASCA_PawPatrol_A_2_13t[c(9, 12, 15, 18, 21, 24, 27),])
 LASCA_PawPatrol_A_2_13=as.matrix(LASCA_PawPatrol_A_2_13)
@@ -506,9 +519,10 @@ LASCA_PawPatrol_A_2_13=matrix(LASCA_PawPatrol_A_2_13,nrow=6,ncol=22)
 LASCA_PawPatrol_A_2_13=colSums(LASCA_PawPatrol_A_2_13,na.rm=T)
 print(LASCA_PawPatrol_A_2_13)
 
+/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx, attention")
-ASCA_Sesame_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx, attention")
+ASCA_Sesame_A_2_13=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx",1)
 ASCA_Sesame_A_2_13t=t(ASCA_Sesame_A_2_13)
 AttASCA_Sesame_A_2_13=data.frame(ASCA_Sesame_A_2_13t[c(7, 10, 13, 16, 19, 22, 25),])
 AttASCA_Sesame_A_2_13=as.matrix(AttASCA_Sesame_A_2_13)
@@ -518,14 +532,14 @@ AttASCA_Sesame_A_2_13=colSums(AttASCA_Sesame_A_2_13,na.rm=T)
 print(AttASCA_Sesame_A_2_13)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx, total")
-ASCA_Sesame_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx, total")
+ASCA_Sesame_A_2_13=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx",1)
 ASCA_Sesame_A_2_13t=t(ASCA_Sesame_A_2_13)
 TotalASCA_Sesame_A_2_13=data.frame(ASCA_Sesame_A_2_13t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx, positive")
-ASCA_Sesame_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx, positive")
+ASCA_Sesame_A_2_13=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx",1)
 ASCA_Sesame_A_2_13t=t(ASCA_Sesame_A_2_13)
 PosASCA_Sesame_A_2_13=data.frame(ASCA_Sesame_A_2_13t[c(8, 11, 14, 17, 20, 23, 26),])
 PosASCA_Sesame_A_2_13=as.matrix(PosASCA_Sesame_A_2_13)
@@ -535,8 +549,8 @@ PosASCA_Sesame_A_2_13=colSums(PosASCA_Sesame_A_2_13,na.rm=T)
 print(PosASCA_Sesame_A_2_13)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx, laugh")
-ASCA_Sesame_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx, laugh")
+ASCA_Sesame_A_2_13=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sesame_A_2.13.14.xlsx",header=T,1)
 ASCA_Sesame_A_2_13t=t(ASCA_Sesame_A_2_13)
 LASCA_Sesame_A_2_13=data.frame(ASCA_Sesame_A_2_13t[c(9, 12, 15, 18, 21, 24, 27),])
 LASCA_Sesame_A_2_13=as.matrix(LASCA_Sesame_A_2_13)
@@ -545,9 +559,10 @@ LASCA_Sesame_A_2_13=matrix(LASCA_Sesame_A_2_13,nrow=6,ncol=50)
 LASCA_Sesame_A_2_13=colSums(LASCA_Sesame_A_2_13,na.rm=T)
 print(LASCA_Sesame_A_2_13)
 
+/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx, attention")
-ASCA_Sofia_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx, attention")
+ASCA_Sofia_A_2_13=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx",1)
 ASCA_Sofia_A_2_13t=t(ASCA_Sofia_A_2_13)
 AttASCA_Sofia_A_2_13=data.frame(ASCA_Sofia_A_2_13t[c(7, 10, 13, 16, 19, 22, 25),])
 AttASCA_Sofia_A_2_13=as.matrix(AttASCA_Sofia_A_2_13)
@@ -557,14 +572,14 @@ AttASCA_Sofia_A_2_13=colSums(AttASCA_Sofia_A_2_13,na.rm=T)
 print(AttASCA_Sofia_A_2_13)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx, total")
-ASCA_Sofia_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx, total")
+ASCA_Sofia_A_2_13=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx",1)
 ASCA_Sofia_A_2_13t=t(ASCA_Sofia_A_2_13)
 TotalASCA_Sofia_A_2_13=data.frame(ASCA_Sofia_A_2_13t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx, positive")
-ASCA_Sofia_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx, positive")
+ASCA_Sofia_A_2_13=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx",1)
 ASCA_Sofia_A_2_13t=t(ASCA_Sofia_A_2_13)
 PosASCA_Sofia_A_2_13=data.frame(ASCA_Sofia_A_2_13t[c(8, 11, 14, 17, 20, 23, 26),])
 PosASCA_Sofia_A_2_13=as.matrix(PosASCA_Sofia_A_2_13)
@@ -574,8 +589,8 @@ PosASCA_Sofia_A_2_13=colSums(PosASCA_Sofia_A_2_13,na.rm=T)
 print(PosASCA_Sofia_A_2_13)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx, laugh")
-ASCA_Sofia_A_2_13=read.xlsx("~/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx, laugh")
+ASCA_Sofia_A_2_13=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/ASCA_Sofia_A_2.13.14.xlsx",header=T,1)
 ASCA_Sofia_A_2_13t=t(ASCA_Sofia_A_2_13)
 LASCA_Sofia_A_2_13=data.frame(ASCA_Sofia_A_2_13t[c(9, 12, 15, 18, 21, 24, 27),])
 LASCA_Sofia_A_2_13=as.matrix(LASCA_Sofia_A_2_13)
@@ -584,9 +599,10 @@ LASCA_Sofia_A_2_13=matrix(LASCA_Sofia_A_2_13,nrow=6,ncol=22)
 LASCA_Sofia_A_2_13=colSums(LASCA_Sofia_A_2_13,na.rm=T)
 print(LASCA_Sofia_A_2_13)
 
+/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx, attention")
-CreativeWorld_PawPatrol_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx, attention")
+CreativeWorld_PawPatrol_A_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx",1)
 CreativeWorld_PawPatrol_A_2_3t=t(CreativeWorld_PawPatrol_A_2_3)
 AttCreativeWorld_PawPatrol_A_2_3=data.frame(CreativeWorld_PawPatrol_A_2_3t[c(7, 10, 13, 16, 19, 22),])
 AttCreativeWorld_PawPatrol_A_2_3=as.matrix(AttCreativeWorld_PawPatrol_A_2_3)
@@ -596,14 +612,14 @@ AttCreativeWorld_PawPatrol_A_2_3=colSums(AttCreativeWorld_PawPatrol_A_2_3,na.rm=
 print(AttCreativeWorld_PawPatrol_A_2_3)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx, total")
-CreativeWorld_PawPatrol_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx, total")
+CreativeWorld_PawPatrol_A_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx",1)
 CreativeWorld_PawPatrol_A_2_3t=t(CreativeWorld_PawPatrol_A_2_3)
 TotalCreativeWorld_PawPatrol_A_2_3=data.frame(CreativeWorld_PawPatrol_A_2_3t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx, positive")
-CreativeWorld_PawPatrol_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx, positive")
+CreativeWorld_PawPatrol_A_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx",1)
 CreativeWorld_PawPatrol_A_2_3t=t(CreativeWorld_PawPatrol_A_2_3)
 PosCreativeWorld_PawPatrol_A_2_3=data.frame(CreativeWorld_PawPatrol_A_2_3t[c(8, 11, 14, 17, 20, 23),])
 PosCreativeWorld_PawPatrol_A_2_3=as.matrix(PosCreativeWorld_PawPatrol_A_2_3)
@@ -613,8 +629,8 @@ PosCreativeWorld_PawPatrol_A_2_3=colSums(PosCreativeWorld_PawPatrol_A_2_3,na.rm=
 print(PosCreativeWorld_PawPatrol_A_2_3)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx, laugh")
-CreativeWorld_PawPatrol_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx, laugh")
+CreativeWorld_PawPatrol_A_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_A_2.3.14.xlsx",header=T,1)
 CreativeWorld_PawPatrol_A_2_3t=t(CreativeWorld_PawPatrol_A_2_3)
 LCreativeWorld_PawPatrol_A_2_3=data.frame(CreativeWorld_PawPatrol_A_2_3t[c(9, 12, 15, 18, 21, 24),])
 LCreativeWorld_PawPatrol_A_2_3=as.matrix(LCreativeWorld_PawPatrol_A_2_3)
@@ -623,9 +639,10 @@ LCreativeWorld_PawPatrol_A_2_3=matrix(LCreativeWorld_PawPatrol_A_2_3,nrow=6,ncol
 LCreativeWorld_PawPatrol_A_2_3=colSums(LCreativeWorld_PawPatrol_A_2_3,na.rm=T)
 print(LCreativeWorld_PawPatrol_A_2_3)
 
+/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx, attention")
-CreativeWorld_Sesame_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx, attention")
+CreativeWorld_Sesame_A_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx",1)
 CreativeWorld_Sesame_A_2_3t=t(CreativeWorld_Sesame_A_2_3)
 AttCreativeWorld_Sesame_A_2_3=data.frame(CreativeWorld_Sesame_A_2_3t[c(7, 10, 13, 16, 19, 22),])
 AttCreativeWorld_Sesame_A_2_3=as.matrix(AttCreativeWorld_Sesame_A_2_3)
@@ -635,14 +652,14 @@ AttCreativeWorld_Sesame_A_2_3=colSums(AttCreativeWorld_Sesame_A_2_3,na.rm=T)
 print(AttCreativeWorld_Sesame_A_2_3)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx, total")
-CreativeWorld_Sesame_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx, total")
+CreativeWorld_Sesame_A_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx",1)
 CreativeWorld_Sesame_A_2_3t=t(CreativeWorld_Sesame_A_2_3)
 TotalCreativeWorld_Sesame_A_2_3=data.frame(CreativeWorld_Sesame_A_2_3t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx, positive")
-CreativeWorld_Sesame_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx, positive")
+CreativeWorld_Sesame_A_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx",1)
 CreativeWorld_Sesame_A_2_3t=t(CreativeWorld_Sesame_A_2_3)
 PosCreativeWorld_Sesame_A_2_3=data.frame(CreativeWorld_Sesame_A_2_3t[c(8, 11, 14, 17, 20, 23),])
 PosCreativeWorld_Sesame_A_2_3=as.matrix(PosCreativeWorld_Sesame_A_2_3)
@@ -652,8 +669,8 @@ PosCreativeWorld_Sesame_A_2_3=colSums(PosCreativeWorld_Sesame_A_2_3,na.rm=T)
 print(PosCreativeWorld_Sesame_A_2_3)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx, laugh")
-CreativeWorld_Sesame_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx, laugh")
+CreativeWorld_Sesame_A_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_A_2.3.14.xlsx",header=T,1)
 CreativeWorld_Sesame_A_2_3t=t(CreativeWorld_Sesame_A_2_3)
 LCreativeWorld_Sesame_A_2_3=data.frame(CreativeWorld_Sesame_A_2_3t[c(9, 12, 15, 18, 21, 24),])
 LCreativeWorld_Sesame_A_2_3=as.matrix(LCreativeWorld_Sesame_A_2_3)
@@ -662,9 +679,10 @@ LCreativeWorld_Sesame_A_2_3=matrix(LCreativeWorld_Sesame_A_2_3,nrow=6,ncol=50)
 LCreativeWorld_Sesame_A_2_3=colSums(LCreativeWorld_Sesame_A_2_3,na.rm=T)
 print(LCreativeWorld_Sesame_A_2_3)
 
+/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx, attention")
-CreativeWorld_Sofia_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx, attention")
+CreativeWorld_Sofia_A_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx",1)
 CreativeWorld_Sofia_A_2_3t=t(CreativeWorld_Sofia_A_2_3)
 AttCreativeWorld_Sofia_A_2_3=data.frame(CreativeWorld_Sofia_A_2_3t[c(7, 10, 13, 16, 19, 22),])
 AttCreativeWorld_Sofia_A_2_3=as.matrix(AttCreativeWorld_Sofia_A_2_3)
@@ -674,14 +692,14 @@ AttCreativeWorld_Sofia_A_2_3=colSums(AttCreativeWorld_Sofia_A_2_3,na.rm=T)
 print(AttCreativeWorld_Sofia_A_2_3)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx, total")
-CreativeWorld_Sofia_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx, total")
+CreativeWorld_Sofia_A_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx",1)
 CreativeWorld_Sofia_A_2_3t=t(CreativeWorld_Sofia_A_2_3)
 TotalCreativeWorld_Sofia_A_2_3=data.frame(CreativeWorld_Sofia_A_2_3t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx, positive")
-CreativeWorld_Sofia_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx, positive")
+CreativeWorld_Sofia_A_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx",1)
 CreativeWorld_Sofia_A_2_3t=t(CreativeWorld_Sofia_A_2_3)
 PosCreativeWorld_Sofia_A_2_3=data.frame(CreativeWorld_Sofia_A_2_3t[c(8, 11, 14, 17, 20, 23),])
 PosCreativeWorld_Sofia_A_2_3=as.matrix(PosCreativeWorld_Sofia_A_2_3)
@@ -691,8 +709,8 @@ PosCreativeWorld_Sofia_A_2_3=colSums(PosCreativeWorld_Sofia_A_2_3,na.rm=T)
 print(PosCreativeWorld_Sofia_A_2_3)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx, laugh")
-CreativeWorld_Sofia_A_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx, laugh")
+CreativeWorld_Sofia_A_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_A_2.3.14.xlsx",header=T,1)
 CreativeWorld_Sofia_A_2_3t=t(CreativeWorld_Sofia_A_2_3)
 LCreativeWorld_Sofia_A_2_3=data.frame(CreativeWorld_Sofia_A_2_3t[c(9, 12, 15, 18, 21, 24),])
 LCreativeWorld_Sofia_A_2_3=as.matrix(LCreativeWorld_Sofia_A_2_3)
@@ -701,9 +719,10 @@ LCreativeWorld_Sofia_A_2_3=matrix(LCreativeWorld_Sofia_A_2_3,nrow=6,ncol=22)
 LCreativeWorld_Sofia_A_2_3=colSums(LCreativeWorld_Sofia_A_2_3,na.rm=T)
 print(LCreativeWorld_Sofia_A_2_3)
 
+/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx, attention")
-CreativeWorld_PawPatrol_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx, attention")
+CreativeWorld_PawPatrol_B_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx",1)
 CreativeWorld_PawPatrol_B_2_3t=t(CreativeWorld_PawPatrol_B_2_3)
 AttCreativeWorld_PawPatrol_B_2_3=data.frame(CreativeWorld_PawPatrol_B_2_3t[c(7, 10, 13, 16, 19, 22),])
 AttCreativeWorld_PawPatrol_B_2_3=as.matrix(AttCreativeWorld_PawPatrol_B_2_3)
@@ -713,14 +732,14 @@ AttCreativeWorld_PawPatrol_B_2_3=colSums(AttCreativeWorld_PawPatrol_B_2_3,na.rm=
 print(AttCreativeWorld_PawPatrol_B_2_3)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx, total")
-CreativeWorld_PawPatrol_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx, total")
+CreativeWorld_PawPatrol_B_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx",1)
 CreativeWorld_PawPatrol_B_2_3t=t(CreativeWorld_PawPatrol_B_2_3)
 TotalCreativeWorld_PawPatrol_B_2_3=data.frame(CreativeWorld_PawPatrol_B_2_3t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx, positive")
-CreativeWorld_PawPatrol_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx, positive")
+CreativeWorld_PawPatrol_B_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx",1)
 CreativeWorld_PawPatrol_B_2_3t=t(CreativeWorld_PawPatrol_B_2_3)
 PosCreativeWorld_PawPatrol_B_2_3=data.frame(CreativeWorld_PawPatrol_B_2_3t[c(8, 11, 14, 17, 20, 23),])
 PosCreativeWorld_PawPatrol_B_2_3=as.matrix(PosCreativeWorld_PawPatrol_B_2_3)
@@ -730,8 +749,8 @@ PosCreativeWorld_PawPatrol_B_2_3=colSums(PosCreativeWorld_PawPatrol_B_2_3,na.rm=
 print(PosCreativeWorld_PawPatrol_B_2_3)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx, laugh")
-CreativeWorld_PawPatrol_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx, laugh")
+CreativeWorld_PawPatrol_B_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_PawPatrol_B_2.3.14.xlsx",header=T,1)
 CreativeWorld_PawPatrol_B_2_3t=t(CreativeWorld_PawPatrol_B_2_3)
 LCreativeWorld_PawPatrol_B_2_3=data.frame(CreativeWorld_PawPatrol_B_2_3t[c(9, 12, 15, 18, 21, 24),])
 LCreativeWorld_PawPatrol_B_2_3=as.matrix(LCreativeWorld_PawPatrol_B_2_3)
@@ -740,9 +759,10 @@ LCreativeWorld_PawPatrol_B_2_3=matrix(LCreativeWorld_PawPatrol_B_2_3,nrow=6,ncol
 LCreativeWorld_PawPatrol_B_2_3=colSums(LCreativeWorld_PawPatrol_B_2_3,na.rm=T)
 print(LCreativeWorld_PawPatrol_B_2_3)
 
+/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx, attention")
-CreativeWorld_Sesame_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx, attention")
+CreativeWorld_Sesame_B_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx",1)
 CreativeWorld_Sesame_B_2_3t=t(CreativeWorld_Sesame_B_2_3)
 AttCreativeWorld_Sesame_B_2_3=data.frame(CreativeWorld_Sesame_B_2_3t[c(7, 10, 13, 16, 19, 22),])
 AttCreativeWorld_Sesame_B_2_3=as.matrix(AttCreativeWorld_Sesame_B_2_3)
@@ -752,14 +772,14 @@ AttCreativeWorld_Sesame_B_2_3=colSums(AttCreativeWorld_Sesame_B_2_3,na.rm=T)
 print(AttCreativeWorld_Sesame_B_2_3)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx, total")
-CreativeWorld_Sesame_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx, total")
+CreativeWorld_Sesame_B_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx",1)
 CreativeWorld_Sesame_B_2_3t=t(CreativeWorld_Sesame_B_2_3)
 TotalCreativeWorld_Sesame_B_2_3=data.frame(CreativeWorld_Sesame_B_2_3t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx, positive")
-CreativeWorld_Sesame_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx, positive")
+CreativeWorld_Sesame_B_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx",1)
 CreativeWorld_Sesame_B_2_3t=t(CreativeWorld_Sesame_B_2_3)
 PosCreativeWorld_Sesame_B_2_3=data.frame(CreativeWorld_Sesame_B_2_3t[c(8, 11, 14, 17, 20, 23),])
 PosCreativeWorld_Sesame_B_2_3=as.matrix(PosCreativeWorld_Sesame_B_2_3)
@@ -769,8 +789,8 @@ PosCreativeWorld_Sesame_B_2_3=colSums(PosCreativeWorld_Sesame_B_2_3,na.rm=T)
 print(PosCreativeWorld_Sesame_B_2_3)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx, laugh")
-CreativeWorld_Sesame_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx, laugh")
+CreativeWorld_Sesame_B_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sesame_B_2.3.14.xlsx",header=T,1)
 CreativeWorld_Sesame_B_2_3t=t(CreativeWorld_Sesame_B_2_3)
 LCreativeWorld_Sesame_B_2_3=data.frame(CreativeWorld_Sesame_B_2_3t[c(9, 12, 15, 18, 21, 24),])
 LCreativeWorld_Sesame_B_2_3=as.matrix(LCreativeWorld_Sesame_B_2_3)
@@ -779,9 +799,10 @@ LCreativeWorld_Sesame_B_2_3=matrix(LCreativeWorld_Sesame_B_2_3,nrow=6,ncol=50)
 LCreativeWorld_Sesame_B_2_3=colSums(LCreativeWorld_Sesame_B_2_3,na.rm=T)
 print(LCreativeWorld_Sesame_B_2_3)
 
+/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx, attention")
-CreativeWorld_Sofia_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx, attention")
+CreativeWorld_Sofia_B_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx",1)
 CreativeWorld_Sofia_B_2_3t=t(CreativeWorld_Sofia_B_2_3)
 AttCreativeWorld_Sofia_B_2_3=data.frame(CreativeWorld_Sofia_B_2_3t[c(7, 10, 13, 16, 19, 22),])
 AttCreativeWorld_Sofia_B_2_3=as.matrix(AttCreativeWorld_Sofia_B_2_3)
@@ -791,14 +812,14 @@ AttCreativeWorld_Sofia_B_2_3=colSums(AttCreativeWorld_Sofia_B_2_3,na.rm=T)
 print(AttCreativeWorld_Sofia_B_2_3)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx, total")
-CreativeWorld_Sofia_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx, total")
+CreativeWorld_Sofia_B_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx",1)
 CreativeWorld_Sofia_B_2_3t=t(CreativeWorld_Sofia_B_2_3)
 TotalCreativeWorld_Sofia_B_2_3=data.frame(CreativeWorld_Sofia_B_2_3t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx, positive")
-CreativeWorld_Sofia_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx, positive")
+CreativeWorld_Sofia_B_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx",1)
 CreativeWorld_Sofia_B_2_3t=t(CreativeWorld_Sofia_B_2_3)
 PosCreativeWorld_Sofia_B_2_3=data.frame(CreativeWorld_Sofia_B_2_3t[c(8, 11, 14, 17, 20, 23),])
 PosCreativeWorld_Sofia_B_2_3=as.matrix(PosCreativeWorld_Sofia_B_2_3)
@@ -808,8 +829,8 @@ PosCreativeWorld_Sofia_B_2_3=colSums(PosCreativeWorld_Sofia_B_2_3,na.rm=T)
 print(PosCreativeWorld_Sofia_B_2_3)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx, laugh")
-CreativeWorld_Sofia_B_2_3=read.xlsx("~/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx, laugh")
+CreativeWorld_Sofia_B_2_3=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/CreativeWorld_Sofia_B_2.3.14.xlsx",header=T,1)
 CreativeWorld_Sofia_B_2_3t=t(CreativeWorld_Sofia_B_2_3)
 LCreativeWorld_Sofia_B_2_3=data.frame(CreativeWorld_Sofia_B_2_3t[c(9, 12, 15, 18, 21, 24),])
 LCreativeWorld_Sofia_B_2_3=as.matrix(LCreativeWorld_Sofia_B_2_3)
@@ -818,9 +839,10 @@ LCreativeWorld_Sofia_B_2_3=matrix(LCreativeWorld_Sofia_B_2_3,nrow=6,ncol=22)
 LCreativeWorld_Sofia_B_2_3=colSums(LCreativeWorld_Sofia_B_2_3,na.rm=T)
 print(LCreativeWorld_Sofia_B_2_3)
 
+/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx, attention")
-PN_PawPatrol_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx, attention")
+PN_PawPatrol_A_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx",1)
 PN_PawPatrol_A_2_10t=t(PN_PawPatrol_A_2_10)
 AttPN_PawPatrol_A_2_10=data.frame(PN_PawPatrol_A_2_10t[c(7, 10, 13, 16, 19, 22),])
 AttPN_PawPatrol_A_2_10=as.matrix(AttPN_PawPatrol_A_2_10)
@@ -830,14 +852,14 @@ AttPN_PawPatrol_A_2_10=colSums(AttPN_PawPatrol_A_2_10,na.rm=T)
 print(AttPN_PawPatrol_A_2_10)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx, total")
-PN_PawPatrol_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx, total")
+PN_PawPatrol_A_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx",1)
 PN_PawPatrol_A_2_10t=t(PN_PawPatrol_A_2_10)
 TotalPN_PawPatrol_A_2_10=data.frame(PN_PawPatrol_A_2_10t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx, positive")
-PN_PawPatrol_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx, positive")
+PN_PawPatrol_A_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx",1)
 PN_PawPatrol_A_2_10t=t(PN_PawPatrol_A_2_10)
 PosPN_PawPatrol_A_2_10=data.frame(PN_PawPatrol_A_2_10t[c(8, 11, 14, 17, 20, 23),])
 PosPN_PawPatrol_A_2_10=as.matrix(PosPN_PawPatrol_A_2_10)
@@ -847,8 +869,8 @@ PosPN_PawPatrol_A_2_10=colSums(PosPN_PawPatrol_A_2_10,na.rm=T)
 print(PosPN_PawPatrol_A_2_10)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx, laugh")
-PN_PawPatrol_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx, laugh")
+PN_PawPatrol_A_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_A_2.10.14.xlsx",header=T,1)
 PN_PawPatrol_A_2_10t=t(PN_PawPatrol_A_2_10)
 LPN_PawPatrol_A_2_10=data.frame(PN_PawPatrol_A_2_10t[c(9, 12, 15, 18, 21, 24),])
 LPN_PawPatrol_A_2_10=as.matrix(LPN_PawPatrol_A_2_10)
@@ -857,9 +879,10 @@ LPN_PawPatrol_A_2_10=matrix(LPN_PawPatrol_A_2_10,nrow=6,ncol=22)
 LPN_PawPatrol_A_2_10=colSums(LPN_PawPatrol_A_2_10,na.rm=T)
 print(LPN_PawPatrol_A_2_10)
 
+/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx, attention")
-PN_Sesame_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx, attention")
+PN_Sesame_A_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx",1)
 PN_Sesame_A_2_10t=t(PN_Sesame_A_2_10)
 AttPN_Sesame_A_2_10=data.frame(PN_Sesame_A_2_10t[c(7, 10, 13, 16, 19, 22),])
 AttPN_Sesame_A_2_10=as.matrix(AttPN_Sesame_A_2_10)
@@ -869,14 +892,14 @@ AttPN_Sesame_A_2_10=colSums(AttPN_Sesame_A_2_10,na.rm=T)
 print(AttPN_Sesame_A_2_10)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx, total")
-PN_Sesame_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx, total")
+PN_Sesame_A_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx",1)
 PN_Sesame_A_2_10t=t(PN_Sesame_A_2_10)
 TotalPN_Sesame_A_2_10=data.frame(PN_Sesame_A_2_10t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx, positive")
-PN_Sesame_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx, positive")
+PN_Sesame_A_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx",1)
 PN_Sesame_A_2_10t=t(PN_Sesame_A_2_10)
 PosPN_Sesame_A_2_10=data.frame(PN_Sesame_A_2_10t[c(8, 11, 14, 17, 20, 23),])
 PosPN_Sesame_A_2_10=as.matrix(PosPN_Sesame_A_2_10)
@@ -886,8 +909,8 @@ PosPN_Sesame_A_2_10=colSums(PosPN_Sesame_A_2_10,na.rm=T)
 print(PosPN_Sesame_A_2_10)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx, laugh")
-PN_Sesame_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx, laugh")
+PN_Sesame_A_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_A_2.10.14.xlsx",header=T,1)
 PN_Sesame_A_2_10t=t(PN_Sesame_A_2_10)
 LPN_Sesame_A_2_10=data.frame(PN_Sesame_A_2_10t[c(9, 12, 15, 18, 21, 24),])
 LPN_Sesame_A_2_10=as.matrix(LPN_Sesame_A_2_10)
@@ -896,9 +919,10 @@ LPN_Sesame_A_2_10=matrix(LPN_Sesame_A_2_10,nrow=6,ncol=50)
 LPN_Sesame_A_2_10=colSums(LPN_Sesame_A_2_10,na.rm=T)
 print(LPN_Sesame_A_2_10)
 
+/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx, attention")
-PN_Sofia_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx, attention")
+PN_Sofia_A_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx",1)
 PN_Sofia_A_2_10t=t(PN_Sofia_A_2_10)
 AttPN_Sofia_A_2_10=data.frame(PN_Sofia_A_2_10t[c(7, 10, 13, 16, 19, 22),])
 AttPN_Sofia_A_2_10=as.matrix(AttPN_Sofia_A_2_10)
@@ -908,14 +932,14 @@ AttPN_Sofia_A_2_10=colSums(AttPN_Sofia_A_2_10,na.rm=T)
 print(AttPN_Sofia_A_2_10)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx, total")
-PN_Sofia_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx, total")
+PN_Sofia_A_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx",1)
 PN_Sofia_A_2_10t=t(PN_Sofia_A_2_10)
 TotalPN_Sofia_A_2_10=data.frame(PN_Sofia_A_2_10t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx, positive")
-PN_Sofia_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx, positive")
+PN_Sofia_A_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx",1)
 PN_Sofia_A_2_10t=t(PN_Sofia_A_2_10)
 PosPN_Sofia_A_2_10=data.frame(PN_Sofia_A_2_10t[c(8, 11, 14, 17, 20, 23),])
 PosPN_Sofia_A_2_10=as.matrix(PosPN_Sofia_A_2_10)
@@ -925,8 +949,8 @@ PosPN_Sofia_A_2_10=colSums(PosPN_Sofia_A_2_10,na.rm=T)
 print(PosPN_Sofia_A_2_10)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx, laugh")
-PN_Sofia_A_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx, laugh")
+PN_Sofia_A_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_A_2.10.14.xlsx",header=T,1)
 PN_Sofia_A_2_10t=t(PN_Sofia_A_2_10)
 LPN_Sofia_A_2_10=data.frame(PN_Sofia_A_2_10t[c(9, 12, 15, 18, 21, 24),])
 LPN_Sofia_A_2_10=as.matrix(LPN_Sofia_A_2_10)
@@ -935,9 +959,10 @@ LPN_Sofia_A_2_10=matrix(LPN_Sofia_A_2_10,nrow=6,ncol=22)
 LPN_Sofia_A_2_10=colSums(LPN_Sofia_A_2_10,na.rm=T)
 print(LPN_Sofia_A_2_10)
 
+/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx, attention")
-PN_PawPatrol_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx, attention")
+PN_PawPatrol_B_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx",1)
 PN_PawPatrol_B_2_10t=t(PN_PawPatrol_B_2_10)
 AttPN_PawPatrol_B_2_10=data.frame(PN_PawPatrol_B_2_10t[c(7, 10, 13, 16, 19, 22),])
 AttPN_PawPatrol_B_2_10=as.matrix(AttPN_PawPatrol_B_2_10)
@@ -947,14 +972,14 @@ AttPN_PawPatrol_B_2_10=colSums(AttPN_PawPatrol_B_2_10,na.rm=T)
 print(AttPN_PawPatrol_B_2_10)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx, total")
-PN_PawPatrol_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx, total")
+PN_PawPatrol_B_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx",1)
 PN_PawPatrol_B_2_10t=t(PN_PawPatrol_B_2_10)
 TotalPN_PawPatrol_B_2_10=data.frame(PN_PawPatrol_B_2_10t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx, positive")
-PN_PawPatrol_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx, positive")
+PN_PawPatrol_B_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx",1)
 PN_PawPatrol_B_2_10t=t(PN_PawPatrol_B_2_10)
 PosPN_PawPatrol_B_2_10=data.frame(PN_PawPatrol_B_2_10t[c(8, 11, 14, 17, 20, 23),])
 PosPN_PawPatrol_B_2_10=as.matrix(PosPN_PawPatrol_B_2_10)
@@ -964,8 +989,8 @@ PosPN_PawPatrol_B_2_10=colSums(PosPN_PawPatrol_B_2_10,na.rm=T)
 print(PosPN_PawPatrol_B_2_10)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx, laugh")
-PN_PawPatrol_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx, laugh")
+PN_PawPatrol_B_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_PawPatrol_B_2.10.14.xlsx",header=T,1)
 PN_PawPatrol_B_2_10t=t(PN_PawPatrol_B_2_10)
 LPN_PawPatrol_B_2_10=data.frame(PN_PawPatrol_B_2_10t[c(9, 12, 15, 18, 21, 24),])
 LPN_PawPatrol_B_2_10=as.matrix(LPN_PawPatrol_B_2_10)
@@ -974,9 +999,10 @@ LPN_PawPatrol_B_2_10=matrix(LPN_PawPatrol_B_2_10,nrow=6,ncol=22)
 LPN_PawPatrol_B_2_10=colSums(LPN_PawPatrol_B_2_10,na.rm=T)
 print(LPN_PawPatrol_B_2_10)
 
+/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx, attention")
-PN_Sesame_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx, attention")
+PN_Sesame_B_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx",1)
 PN_Sesame_B_2_10t=t(PN_Sesame_B_2_10)
 AttPN_Sesame_B_2_10=data.frame(PN_Sesame_B_2_10t[c(7, 10, 13, 16, 19, 22),])
 AttPN_Sesame_B_2_10=as.matrix(AttPN_Sesame_B_2_10)
@@ -986,14 +1012,14 @@ AttPN_Sesame_B_2_10=colSums(AttPN_Sesame_B_2_10,na.rm=T)
 print(AttPN_Sesame_B_2_10)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx, total")
-PN_Sesame_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx, total")
+PN_Sesame_B_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx",1)
 PN_Sesame_B_2_10t=t(PN_Sesame_B_2_10)
 TotalPN_Sesame_B_2_10=data.frame(PN_Sesame_B_2_10t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx, positive")
-PN_Sesame_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx, positive")
+PN_Sesame_B_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx",1)
 PN_Sesame_B_2_10t=t(PN_Sesame_B_2_10)
 PosPN_Sesame_B_2_10=data.frame(PN_Sesame_B_2_10t[c(8, 11, 14, 17, 20, 23),])
 PosPN_Sesame_B_2_10=as.matrix(PosPN_Sesame_B_2_10)
@@ -1003,8 +1029,8 @@ PosPN_Sesame_B_2_10=colSums(PosPN_Sesame_B_2_10,na.rm=T)
 print(PosPN_Sesame_B_2_10)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx, laugh")
-PN_Sesame_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx, laugh")
+PN_Sesame_B_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sesame_B_2.10.14.xlsx",header=T,1)
 PN_Sesame_B_2_10t=t(PN_Sesame_B_2_10)
 LPN_Sesame_B_2_10=data.frame(PN_Sesame_B_2_10t[c(9, 12, 15, 18, 21, 24),])
 LPN_Sesame_B_2_10=as.matrix(LPN_Sesame_B_2_10)
@@ -1013,9 +1039,10 @@ LPN_Sesame_B_2_10=matrix(LPN_Sesame_B_2_10,nrow=6,ncol=50)
 LPN_Sesame_B_2_10=colSums(LPN_Sesame_B_2_10,na.rm=T)
 print(LPN_Sesame_B_2_10)
 
+/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx, attention")
-PN_Sofia_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx, attention")
+PN_Sofia_B_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx",1)
 PN_Sofia_B_2_10t=t(PN_Sofia_B_2_10)
 AttPN_Sofia_B_2_10=data.frame(PN_Sofia_B_2_10t[c(7, 10, 13, 16, 19, 22),])
 AttPN_Sofia_B_2_10=as.matrix(AttPN_Sofia_B_2_10)
@@ -1025,14 +1052,14 @@ AttPN_Sofia_B_2_10=colSums(AttPN_Sofia_B_2_10,na.rm=T)
 print(AttPN_Sofia_B_2_10)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx, total")
-PN_Sofia_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx, total")
+PN_Sofia_B_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx",1)
 PN_Sofia_B_2_10t=t(PN_Sofia_B_2_10)
 TotalPN_Sofia_B_2_10=data.frame(PN_Sofia_B_2_10t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx, positive")
-PN_Sofia_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx, positive")
+PN_Sofia_B_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx",1)
 PN_Sofia_B_2_10t=t(PN_Sofia_B_2_10)
 PosPN_Sofia_B_2_10=data.frame(PN_Sofia_B_2_10t[c(8, 11, 14, 17, 20, 23),])
 PosPN_Sofia_B_2_10=as.matrix(PosPN_Sofia_B_2_10)
@@ -1042,8 +1069,8 @@ PosPN_Sofia_B_2_10=colSums(PosPN_Sofia_B_2_10,na.rm=T)
 print(PosPN_Sofia_B_2_10)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx, laugh")
-PN_Sofia_B_2_10=read.xlsx("~/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx, laugh")
+PN_Sofia_B_2_10=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/PN_Sofia_B_2.10.14.xlsx",header=T,1)
 PN_Sofia_B_2_10t=t(PN_Sofia_B_2_10)
 LPN_Sofia_B_2_10=data.frame(PN_Sofia_B_2_10t[c(9, 12, 15, 18, 21, 24),])
 LPN_Sofia_B_2_10=as.matrix(LPN_Sofia_B_2_10)
@@ -1052,9 +1079,10 @@ LPN_Sofia_B_2_10=matrix(LPN_Sofia_B_2_10,nrow=6,ncol=22)
 LPN_Sofia_B_2_10=colSums(LPN_Sofia_B_2_10,na.rm=T)
 print(LPN_Sofia_B_2_10)
 
+/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx, attention")
-RosiesDaycare_PawPatrol_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx, attention")
+RosiesDaycare_PawPatrol_A_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx",1)
 RosiesDaycare_PawPatrol_A_2_12t=t(RosiesDaycare_PawPatrol_A_2_12)
 AttRosiesDaycare_PawPatrol_A_2_12=data.frame(RosiesDaycare_PawPatrol_A_2_12t[c(7, 10, 13, 16, 19, 22),])
 AttRosiesDaycare_PawPatrol_A_2_12=as.matrix(AttRosiesDaycare_PawPatrol_A_2_12)
@@ -1064,14 +1092,14 @@ AttRosiesDaycare_PawPatrol_A_2_12=colSums(AttRosiesDaycare_PawPatrol_A_2_12,na.r
 print(AttRosiesDaycare_PawPatrol_A_2_12)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx, total")
-RosiesDaycare_PawPatrol_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx, total")
+RosiesDaycare_PawPatrol_A_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx",1)
 RosiesDaycare_PawPatrol_A_2_12t=t(RosiesDaycare_PawPatrol_A_2_12)
 TotalRosiesDaycare_PawPatrol_A_2_12=data.frame(RosiesDaycare_PawPatrol_A_2_12t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx, positive")
-RosiesDaycare_PawPatrol_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx, positive")
+RosiesDaycare_PawPatrol_A_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx",1)
 RosiesDaycare_PawPatrol_A_2_12t=t(RosiesDaycare_PawPatrol_A_2_12)
 PosRosiesDaycare_PawPatrol_A_2_12=data.frame(RosiesDaycare_PawPatrol_A_2_12t[c(8, 11, 14, 17, 20, 23),])
 PosRosiesDaycare_PawPatrol_A_2_12=as.matrix(PosRosiesDaycare_PawPatrol_A_2_12)
@@ -1081,8 +1109,8 @@ PosRosiesDaycare_PawPatrol_A_2_12=colSums(PosRosiesDaycare_PawPatrol_A_2_12,na.r
 print(PosRosiesDaycare_PawPatrol_A_2_12)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx, laugh")
-RosiesDaycare_PawPatrol_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx, laugh")
+RosiesDaycare_PawPatrol_A_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_A_2.12.14.xlsx",header=T,1)
 RosiesDaycare_PawPatrol_A_2_12t=t(RosiesDaycare_PawPatrol_A_2_12)
 LRosiesDaycare_PawPatrol_A_2_12=data.frame(RosiesDaycare_PawPatrol_A_2_12t[c(9, 12, 15, 18, 21, 24),])
 LRosiesDaycare_PawPatrol_A_2_12=as.matrix(LRosiesDaycare_PawPatrol_A_2_12)
@@ -1091,9 +1119,10 @@ LRosiesDaycare_PawPatrol_A_2_12=matrix(LRosiesDaycare_PawPatrol_A_2_12,nrow=6,nc
 LRosiesDaycare_PawPatrol_A_2_12=colSums(LRosiesDaycare_PawPatrol_A_2_12,na.rm=T)
 print(LRosiesDaycare_PawPatrol_A_2_12)
 
+/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx, attention")
-RosiesDaycare_Sesame_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx, attention")
+RosiesDaycare_Sesame_A_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx",1)
 RosiesDaycare_Sesame_A_2_12t=t(RosiesDaycare_Sesame_A_2_12)
 AttRosiesDaycare_Sesame_A_2_12=data.frame(RosiesDaycare_Sesame_A_2_12t[c(7, 10, 13, 16, 19, 22),])
 AttRosiesDaycare_Sesame_A_2_12=as.matrix(AttRosiesDaycare_Sesame_A_2_12)
@@ -1103,14 +1132,14 @@ AttRosiesDaycare_Sesame_A_2_12=colSums(AttRosiesDaycare_Sesame_A_2_12,na.rm=T)
 print(AttRosiesDaycare_Sesame_A_2_12)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx, total")
-RosiesDaycare_Sesame_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx, total")
+RosiesDaycare_Sesame_A_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx",1)
 RosiesDaycare_Sesame_A_2_12t=t(RosiesDaycare_Sesame_A_2_12)
 TotalRosiesDaycare_Sesame_A_2_12=data.frame(RosiesDaycare_Sesame_A_2_12t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx, positive")
-RosiesDaycare_Sesame_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx, positive")
+RosiesDaycare_Sesame_A_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx",1)
 RosiesDaycare_Sesame_A_2_12t=t(RosiesDaycare_Sesame_A_2_12)
 PosRosiesDaycare_Sesame_A_2_12=data.frame(RosiesDaycare_Sesame_A_2_12t[c(8, 11, 14, 17, 20, 23),])
 PosRosiesDaycare_Sesame_A_2_12=as.matrix(PosRosiesDaycare_Sesame_A_2_12)
@@ -1120,8 +1149,8 @@ PosRosiesDaycare_Sesame_A_2_12=colSums(PosRosiesDaycare_Sesame_A_2_12,na.rm=T)
 print(PosRosiesDaycare_Sesame_A_2_12)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx, laugh")
-RosiesDaycare_Sesame_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx, laugh")
+RosiesDaycare_Sesame_A_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_A_2.12.14.xlsx",header=T,1)
 RosiesDaycare_Sesame_A_2_12t=t(RosiesDaycare_Sesame_A_2_12)
 LRosiesDaycare_Sesame_A_2_12=data.frame(RosiesDaycare_Sesame_A_2_12t[c(9, 12, 15, 18, 21, 24),])
 LRosiesDaycare_Sesame_A_2_12=as.matrix(LRosiesDaycare_Sesame_A_2_12)
@@ -1130,9 +1159,10 @@ LRosiesDaycare_Sesame_A_2_12=matrix(LRosiesDaycare_Sesame_A_2_12,nrow=6,ncol=50)
 LRosiesDaycare_Sesame_A_2_12=colSums(LRosiesDaycare_Sesame_A_2_12,na.rm=T)
 print(LRosiesDaycare_Sesame_A_2_12)
 
+/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx, attention")
-RosiesDaycare_Sofia_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx, attention")
+RosiesDaycare_Sofia_A_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx",1)
 RosiesDaycare_Sofia_A_2_12t=t(RosiesDaycare_Sofia_A_2_12)
 AttRosiesDaycare_Sofia_A_2_12=data.frame(RosiesDaycare_Sofia_A_2_12t[c(7, 10, 13, 16, 19, 22),])
 AttRosiesDaycare_Sofia_A_2_12=as.matrix(AttRosiesDaycare_Sofia_A_2_12)
@@ -1142,14 +1172,14 @@ AttRosiesDaycare_Sofia_A_2_12=colSums(AttRosiesDaycare_Sofia_A_2_12,na.rm=T)
 print(AttRosiesDaycare_Sofia_A_2_12)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx, total")
-RosiesDaycare_Sofia_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx, total")
+RosiesDaycare_Sofia_A_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx",1)
 RosiesDaycare_Sofia_A_2_12t=t(RosiesDaycare_Sofia_A_2_12)
 TotalRosiesDaycare_Sofia_A_2_12=data.frame(RosiesDaycare_Sofia_A_2_12t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx, positive")
-RosiesDaycare_Sofia_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx, positive")
+RosiesDaycare_Sofia_A_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx",1)
 RosiesDaycare_Sofia_A_2_12t=t(RosiesDaycare_Sofia_A_2_12)
 PosRosiesDaycare_Sofia_A_2_12=data.frame(RosiesDaycare_Sofia_A_2_12t[c(8, 11, 14, 17, 20, 23),])
 PosRosiesDaycare_Sofia_A_2_12=as.matrix(PosRosiesDaycare_Sofia_A_2_12)
@@ -1159,8 +1189,8 @@ PosRosiesDaycare_Sofia_A_2_12=colSums(PosRosiesDaycare_Sofia_A_2_12,na.rm=T)
 print(PosRosiesDaycare_Sofia_A_2_12)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx, laugh")
-RosiesDaycare_Sofia_A_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx, laugh")
+RosiesDaycare_Sofia_A_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_A_2.12.14.xlsx",header=T,1)
 RosiesDaycare_Sofia_A_2_12t=t(RosiesDaycare_Sofia_A_2_12)
 LRosiesDaycare_Sofia_A_2_12=data.frame(RosiesDaycare_Sofia_A_2_12t[c(9, 12, 15, 18, 21, 24),])
 LRosiesDaycare_Sofia_A_2_12=as.matrix(LRosiesDaycare_Sofia_A_2_12)
@@ -1169,9 +1199,10 @@ LRosiesDaycare_Sofia_A_2_12=matrix(LRosiesDaycare_Sofia_A_2_12,nrow=6,ncol=22)
 LRosiesDaycare_Sofia_A_2_12=colSums(LRosiesDaycare_Sofia_A_2_12,na.rm=T)
 print(LRosiesDaycare_Sofia_A_2_12)
 
+/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx, attention")
-RosiesDaycare_PawPatrol_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx, attention")
+RosiesDaycare_PawPatrol_B_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx",1)
 RosiesDaycare_PawPatrol_B_2_12t=t(RosiesDaycare_PawPatrol_B_2_12)
 AttRosiesDaycare_PawPatrol_B_2_12=data.frame(RosiesDaycare_PawPatrol_B_2_12t[c(7, 10, 13, 16, 19, 22),])
 AttRosiesDaycare_PawPatrol_B_2_12=as.matrix(AttRosiesDaycare_PawPatrol_B_2_12)
@@ -1181,14 +1212,14 @@ AttRosiesDaycare_PawPatrol_B_2_12=colSums(AttRosiesDaycare_PawPatrol_B_2_12,na.r
 print(AttRosiesDaycare_PawPatrol_B_2_12)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx, total")
-RosiesDaycare_PawPatrol_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx, total")
+RosiesDaycare_PawPatrol_B_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx",1)
 RosiesDaycare_PawPatrol_B_2_12t=t(RosiesDaycare_PawPatrol_B_2_12)
 TotalRosiesDaycare_PawPatrol_B_2_12=data.frame(RosiesDaycare_PawPatrol_B_2_12t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx, positive")
-RosiesDaycare_PawPatrol_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx, positive")
+RosiesDaycare_PawPatrol_B_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx",1)
 RosiesDaycare_PawPatrol_B_2_12t=t(RosiesDaycare_PawPatrol_B_2_12)
 PosRosiesDaycare_PawPatrol_B_2_12=data.frame(RosiesDaycare_PawPatrol_B_2_12t[c(8, 11, 14, 17, 20, 23),])
 PosRosiesDaycare_PawPatrol_B_2_12=as.matrix(PosRosiesDaycare_PawPatrol_B_2_12)
@@ -1198,8 +1229,8 @@ PosRosiesDaycare_PawPatrol_B_2_12=colSums(PosRosiesDaycare_PawPatrol_B_2_12,na.r
 print(PosRosiesDaycare_PawPatrol_B_2_12)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx, laugh")
-RosiesDaycare_PawPatrol_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx, laugh")
+RosiesDaycare_PawPatrol_B_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_PawPatrol_B_2.12.14.xlsx",header=T,1)
 RosiesDaycare_PawPatrol_B_2_12t=t(RosiesDaycare_PawPatrol_B_2_12)
 LRosiesDaycare_PawPatrol_B_2_12=data.frame(RosiesDaycare_PawPatrol_B_2_12t[c(9, 12, 15, 18, 21, 24),])
 LRosiesDaycare_PawPatrol_B_2_12=as.matrix(LRosiesDaycare_PawPatrol_B_2_12)
@@ -1208,9 +1239,10 @@ LRosiesDaycare_PawPatrol_B_2_12=matrix(LRosiesDaycare_PawPatrol_B_2_12,nrow=6,nc
 LRosiesDaycare_PawPatrol_B_2_12=colSums(LRosiesDaycare_PawPatrol_B_2_12,na.rm=T)
 print(LRosiesDaycare_PawPatrol_B_2_12)
 
+/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx, attention")
-RosiesDaycare_Sesame_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx, attention")
+RosiesDaycare_Sesame_B_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx",1)
 RosiesDaycare_Sesame_B_2_12t=t(RosiesDaycare_Sesame_B_2_12)
 AttRosiesDaycare_Sesame_B_2_12=data.frame(RosiesDaycare_Sesame_B_2_12t[c(7, 10, 13, 16, 19),])
 AttRosiesDaycare_Sesame_B_2_12=as.matrix(AttRosiesDaycare_Sesame_B_2_12)
@@ -1220,14 +1252,14 @@ AttRosiesDaycare_Sesame_B_2_12=colSums(AttRosiesDaycare_Sesame_B_2_12,na.rm=T)
 print(AttRosiesDaycare_Sesame_B_2_12)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx, total")
-RosiesDaycare_Sesame_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx, total")
+RosiesDaycare_Sesame_B_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx",1)
 RosiesDaycare_Sesame_B_2_12t=t(RosiesDaycare_Sesame_B_2_12)
 TotalRosiesDaycare_Sesame_B_2_12=data.frame(RosiesDaycare_Sesame_B_2_12t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx, positive")
-RosiesDaycare_Sesame_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx, positive")
+RosiesDaycare_Sesame_B_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx",1)
 RosiesDaycare_Sesame_B_2_12t=t(RosiesDaycare_Sesame_B_2_12)
 PosRosiesDaycare_Sesame_B_2_12=data.frame(RosiesDaycare_Sesame_B_2_12t[c(8, 11, 14, 17, 20),])
 PosRosiesDaycare_Sesame_B_2_12=as.matrix(PosRosiesDaycare_Sesame_B_2_12)
@@ -1237,8 +1269,8 @@ PosRosiesDaycare_Sesame_B_2_12=colSums(PosRosiesDaycare_Sesame_B_2_12,na.rm=T)
 print(PosRosiesDaycare_Sesame_B_2_12)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx, laugh")
-RosiesDaycare_Sesame_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx, laugh")
+RosiesDaycare_Sesame_B_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sesame_B_2.12.14.xlsx",header=T,1)
 RosiesDaycare_Sesame_B_2_12t=t(RosiesDaycare_Sesame_B_2_12)
 LRosiesDaycare_Sesame_B_2_12=data.frame(RosiesDaycare_Sesame_B_2_12t[c(9, 12, 15, 18, 21),])
 LRosiesDaycare_Sesame_B_2_12=as.matrix(LRosiesDaycare_Sesame_B_2_12)
@@ -1247,9 +1279,10 @@ LRosiesDaycare_Sesame_B_2_12=matrix(LRosiesDaycare_Sesame_B_2_12,nrow=6,ncol=50)
 LRosiesDaycare_Sesame_B_2_12=colSums(LRosiesDaycare_Sesame_B_2_12,na.rm=T)
 print(LRosiesDaycare_Sesame_B_2_12)
 
+/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx, attention")
-RosiesDaycare_Sofia_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx, attention")
+RosiesDaycare_Sofia_B_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx",1)
 RosiesDaycare_Sofia_B_2_12t=t(RosiesDaycare_Sofia_B_2_12)
 AttRosiesDaycare_Sofia_B_2_12=data.frame(RosiesDaycare_Sofia_B_2_12t[c(7, 10, 13, 16, 19, 22),])
 AttRosiesDaycare_Sofia_B_2_12=as.matrix(AttRosiesDaycare_Sofia_B_2_12)
@@ -1259,14 +1292,14 @@ AttRosiesDaycare_Sofia_B_2_12=colSums(AttRosiesDaycare_Sofia_B_2_12,na.rm=T)
 print(AttRosiesDaycare_Sofia_B_2_12)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx, total")
-RosiesDaycare_Sofia_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx, total")
+RosiesDaycare_Sofia_B_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx",1)
 RosiesDaycare_Sofia_B_2_12t=t(RosiesDaycare_Sofia_B_2_12)
 TotalRosiesDaycare_Sofia_B_2_12=data.frame(RosiesDaycare_Sofia_B_2_12t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx, positive")
-RosiesDaycare_Sofia_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx, positive")
+RosiesDaycare_Sofia_B_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx",1)
 RosiesDaycare_Sofia_B_2_12t=t(RosiesDaycare_Sofia_B_2_12)
 PosRosiesDaycare_Sofia_B_2_12=data.frame(RosiesDaycare_Sofia_B_2_12t[c(8, 11, 14, 17, 20, 23),])
 PosRosiesDaycare_Sofia_B_2_12=as.matrix(PosRosiesDaycare_Sofia_B_2_12)
@@ -1276,8 +1309,8 @@ PosRosiesDaycare_Sofia_B_2_12=colSums(PosRosiesDaycare_Sofia_B_2_12,na.rm=T)
 print(PosRosiesDaycare_Sofia_B_2_12)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx, laugh")
-RosiesDaycare_Sofia_B_2_12=read.xlsx("~/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx, laugh")
+RosiesDaycare_Sofia_B_2_12=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/RosiesDaycare_Sofia_B_2.12.14.xlsx",header=T,1)
 RosiesDaycare_Sofia_B_2_12t=t(RosiesDaycare_Sofia_B_2_12)
 LRosiesDaycare_Sofia_B_2_12=data.frame(RosiesDaycare_Sofia_B_2_12t[c(9, 12, 15, 18, 21, 24),])
 LRosiesDaycare_Sofia_B_2_12=as.matrix(LRosiesDaycare_Sofia_B_2_12)
@@ -1286,9 +1319,10 @@ LRosiesDaycare_Sofia_B_2_12=matrix(LRosiesDaycare_Sofia_B_2_12,nrow=6,ncol=22)
 LRosiesDaycare_Sofia_B_2_12=colSums(LRosiesDaycare_Sofia_B_2_12,na.rm=T)
 print(LRosiesDaycare_Sofia_B_2_12)
 
+/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx, attention")
-TenderMemories_PawPatrol_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx, attention")
+TenderMemories_PawPatrol_A_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx",1)
 TenderMemories_PawPatrol_A_2_4t=t(TenderMemories_PawPatrol_A_2_4)
 AttTenderMemories_PawPatrol_A_2_4=data.frame(TenderMemories_PawPatrol_A_2_4t[c(7, 10, 13, 16, 19),])
 AttTenderMemories_PawPatrol_A_2_4=as.matrix(AttTenderMemories_PawPatrol_A_2_4)
@@ -1298,14 +1332,14 @@ AttTenderMemories_PawPatrol_A_2_4=colSums(AttTenderMemories_PawPatrol_A_2_4,na.r
 print(AttTenderMemories_PawPatrol_A_2_4)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx, total")
-TenderMemories_PawPatrol_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx, total")
+TenderMemories_PawPatrol_A_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx",1)
 TenderMemories_PawPatrol_A_2_4t=t(TenderMemories_PawPatrol_A_2_4)
 TotalTenderMemories_PawPatrol_A_2_4=data.frame(TenderMemories_PawPatrol_A_2_4t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx, positive")
-TenderMemories_PawPatrol_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx, positive")
+TenderMemories_PawPatrol_A_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx",1)
 TenderMemories_PawPatrol_A_2_4t=t(TenderMemories_PawPatrol_A_2_4)
 PosTenderMemories_PawPatrol_A_2_4=data.frame(TenderMemories_PawPatrol_A_2_4t[c(8, 11, 14, 17, 20),])
 PosTenderMemories_PawPatrol_A_2_4=as.matrix(PosTenderMemories_PawPatrol_A_2_4)
@@ -1315,8 +1349,8 @@ PosTenderMemories_PawPatrol_A_2_4=colSums(PosTenderMemories_PawPatrol_A_2_4,na.r
 print(PosTenderMemories_PawPatrol_A_2_4)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx, laugh")
-TenderMemories_PawPatrol_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx, laugh")
+TenderMemories_PawPatrol_A_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_A_2.4.14.xlsx",header=T,1)
 TenderMemories_PawPatrol_A_2_4t=t(TenderMemories_PawPatrol_A_2_4)
 LTenderMemories_PawPatrol_A_2_4=data.frame(TenderMemories_PawPatrol_A_2_4t[c(9, 12, 15, 18, 21),])
 LTenderMemories_PawPatrol_A_2_4=as.matrix(LTenderMemories_PawPatrol_A_2_4)
@@ -1325,9 +1359,10 @@ LTenderMemories_PawPatrol_A_2_4=matrix(LTenderMemories_PawPatrol_A_2_4,nrow=6,nc
 LTenderMemories_PawPatrol_A_2_4=colSums(LTenderMemories_PawPatrol_A_2_4,na.rm=T)
 print(LTenderMemories_PawPatrol_A_2_4)
 
+/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx, attention")
-TenderMemories_Sesame_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx, attention")
+TenderMemories_Sesame_A_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx",1)
 TenderMemories_Sesame_A_2_4t=t(TenderMemories_Sesame_A_2_4)
 AttTenderMemories_Sesame_A_2_4=data.frame(TenderMemories_Sesame_A_2_4t[c(7, 10, 13, 16),])
 AttTenderMemories_Sesame_A_2_4=as.matrix(AttTenderMemories_Sesame_A_2_4)
@@ -1337,14 +1372,14 @@ AttTenderMemories_Sesame_A_2_4=colSums(AttTenderMemories_Sesame_A_2_4,na.rm=T)
 print(AttTenderMemories_Sesame_A_2_4)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx, total")
-TenderMemories_Sesame_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx, total")
+TenderMemories_Sesame_A_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx",1)
 TenderMemories_Sesame_A_2_4t=t(TenderMemories_Sesame_A_2_4)
 TotalTenderMemories_Sesame_A_2_4=data.frame(TenderMemories_Sesame_A_2_4t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx, positive")
-TenderMemories_Sesame_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx, positive")
+TenderMemories_Sesame_A_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx",1)
 TenderMemories_Sesame_A_2_4t=t(TenderMemories_Sesame_A_2_4)
 PosTenderMemories_Sesame_A_2_4=data.frame(TenderMemories_Sesame_A_2_4t[c(8, 11, 14, 17),])
 PosTenderMemories_Sesame_A_2_4=as.matrix(PosTenderMemories_Sesame_A_2_4)
@@ -1354,8 +1389,8 @@ PosTenderMemories_Sesame_A_2_4=colSums(PosTenderMemories_Sesame_A_2_4,na.rm=T)
 print(PosTenderMemories_Sesame_A_2_4)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx, laugh")
-TenderMemories_Sesame_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx, laugh")
+TenderMemories_Sesame_A_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_A_2.4.14.xlsx",header=T,1)
 TenderMemories_Sesame_A_2_4t=t(TenderMemories_Sesame_A_2_4)
 LTenderMemories_Sesame_A_2_4=data.frame(TenderMemories_Sesame_A_2_4t[c(9, 12, 15, 18),])
 LTenderMemories_Sesame_A_2_4=as.matrix(LTenderMemories_Sesame_A_2_4)
@@ -1364,9 +1399,10 @@ LTenderMemories_Sesame_A_2_4=matrix(LTenderMemories_Sesame_A_2_4,nrow=6,ncol=50)
 LTenderMemories_Sesame_A_2_4=colSums(LTenderMemories_Sesame_A_2_4,na.rm=T)
 print(LTenderMemories_Sesame_A_2_4)
 
+/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx, attention")
-TenderMemories_Sofia_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx, attention")
+TenderMemories_Sofia_A_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx",1)
 TenderMemories_Sofia_A_2_4t=t(TenderMemories_Sofia_A_2_4)
 AttTenderMemories_Sofia_A_2_4=data.frame(TenderMemories_Sofia_A_2_4t[c(7, 10, 13, 16),])
 AttTenderMemories_Sofia_A_2_4=as.matrix(AttTenderMemories_Sofia_A_2_4)
@@ -1376,14 +1412,14 @@ AttTenderMemories_Sofia_A_2_4=colSums(AttTenderMemories_Sofia_A_2_4,na.rm=T)
 print(AttTenderMemories_Sofia_A_2_4)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx, total")
-TenderMemories_Sofia_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx, total")
+TenderMemories_Sofia_A_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx",1)
 TenderMemories_Sofia_A_2_4t=t(TenderMemories_Sofia_A_2_4)
 TotalTenderMemories_Sofia_A_2_4=data.frame(TenderMemories_Sofia_A_2_4t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx, positive")
-TenderMemories_Sofia_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx, positive")
+TenderMemories_Sofia_A_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx",1)
 TenderMemories_Sofia_A_2_4t=t(TenderMemories_Sofia_A_2_4)
 PosTenderMemories_Sofia_A_2_4=data.frame(TenderMemories_Sofia_A_2_4t[c(8, 11, 14, 17),])
 PosTenderMemories_Sofia_A_2_4=as.matrix(PosTenderMemories_Sofia_A_2_4)
@@ -1393,8 +1429,8 @@ PosTenderMemories_Sofia_A_2_4=colSums(PosTenderMemories_Sofia_A_2_4,na.rm=T)
 print(PosTenderMemories_Sofia_A_2_4)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx, laugh")
-TenderMemories_Sofia_A_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx, laugh")
+TenderMemories_Sofia_A_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_A_2.4.14.xlsx",header=T,1)
 TenderMemories_Sofia_A_2_4t=t(TenderMemories_Sofia_A_2_4)
 LTenderMemories_Sofia_A_2_4=data.frame(TenderMemories_Sofia_A_2_4t[c(9, 12, 15, 18),])
 LTenderMemories_Sofia_A_2_4=as.matrix(LTenderMemories_Sofia_A_2_4)
@@ -1403,9 +1439,10 @@ LTenderMemories_Sofia_A_2_4=matrix(LTenderMemories_Sofia_A_2_4,nrow=6,ncol=22)
 LTenderMemories_Sofia_A_2_4=colSums(LTenderMemories_Sofia_A_2_4,na.rm=T)
 print(LTenderMemories_Sofia_A_2_4)
 
+/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx, attention")
-TenderMemories_PawPatrol_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx, attention")
+TenderMemories_PawPatrol_B_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx",1)
 TenderMemories_PawPatrol_B_2_4t=t(TenderMemories_PawPatrol_B_2_4)
 AttTenderMemories_PawPatrol_B_2_4=data.frame(TenderMemories_PawPatrol_B_2_4t[c(7, 10, 13, 16),])
 AttTenderMemories_PawPatrol_B_2_4=as.matrix(AttTenderMemories_PawPatrol_B_2_4)
@@ -1415,14 +1452,14 @@ AttTenderMemories_PawPatrol_B_2_4=colSums(AttTenderMemories_PawPatrol_B_2_4,na.r
 print(AttTenderMemories_PawPatrol_B_2_4)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx, total")
-TenderMemories_PawPatrol_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx, total")
+TenderMemories_PawPatrol_B_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx",1)
 TenderMemories_PawPatrol_B_2_4t=t(TenderMemories_PawPatrol_B_2_4)
 TotalTenderMemories_PawPatrol_B_2_4=data.frame(TenderMemories_PawPatrol_B_2_4t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx, positive")
-TenderMemories_PawPatrol_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx, positive")
+TenderMemories_PawPatrol_B_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx",1)
 TenderMemories_PawPatrol_B_2_4t=t(TenderMemories_PawPatrol_B_2_4)
 PosTenderMemories_PawPatrol_B_2_4=data.frame(TenderMemories_PawPatrol_B_2_4t[c(8, 11, 14, 17),])
 PosTenderMemories_PawPatrol_B_2_4=as.matrix(PosTenderMemories_PawPatrol_B_2_4)
@@ -1432,8 +1469,8 @@ PosTenderMemories_PawPatrol_B_2_4=colSums(PosTenderMemories_PawPatrol_B_2_4,na.r
 print(PosTenderMemories_PawPatrol_B_2_4)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx, laugh")
-TenderMemories_PawPatrol_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx, laugh")
+TenderMemories_PawPatrol_B_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_PawPatrol_B_2.4.14.xlsx",header=T,1)
 TenderMemories_PawPatrol_B_2_4t=t(TenderMemories_PawPatrol_B_2_4)
 LTenderMemories_PawPatrol_B_2_4=data.frame(TenderMemories_PawPatrol_B_2_4t[c(9, 12, 15, 18),])
 LTenderMemories_PawPatrol_B_2_4=as.matrix(LTenderMemories_PawPatrol_B_2_4)
@@ -1442,9 +1479,10 @@ LTenderMemories_PawPatrol_B_2_4=matrix(LTenderMemories_PawPatrol_B_2_4,nrow=6,nc
 LTenderMemories_PawPatrol_B_2_4=colSums(LTenderMemories_PawPatrol_B_2_4,na.rm=T)
 print(LTenderMemories_PawPatrol_B_2_4)
 
+/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx, attention")
-TenderMemories_Sesame_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx, attention")
+TenderMemories_Sesame_B_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx",1)
 TenderMemories_Sesame_B_2_4t=t(TenderMemories_Sesame_B_2_4)
 AttTenderMemories_Sesame_B_2_4=data.frame(TenderMemories_Sesame_B_2_4t[c(7, 10, 13, 16),])
 AttTenderMemories_Sesame_B_2_4=as.matrix(AttTenderMemories_Sesame_B_2_4)
@@ -1454,14 +1492,14 @@ AttTenderMemories_Sesame_B_2_4=colSums(AttTenderMemories_Sesame_B_2_4,na.rm=T)
 print(AttTenderMemories_Sesame_B_2_4)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx, total")
-TenderMemories_Sesame_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx, total")
+TenderMemories_Sesame_B_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx",1)
 TenderMemories_Sesame_B_2_4t=t(TenderMemories_Sesame_B_2_4)
 TotalTenderMemories_Sesame_B_2_4=data.frame(TenderMemories_Sesame_B_2_4t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx, positive")
-TenderMemories_Sesame_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx, positive")
+TenderMemories_Sesame_B_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx",1)
 TenderMemories_Sesame_B_2_4t=t(TenderMemories_Sesame_B_2_4)
 PosTenderMemories_Sesame_B_2_4=data.frame(TenderMemories_Sesame_B_2_4t[c(8, 11, 14, 17),])
 PosTenderMemories_Sesame_B_2_4=as.matrix(PosTenderMemories_Sesame_B_2_4)
@@ -1471,8 +1509,8 @@ PosTenderMemories_Sesame_B_2_4=colSums(PosTenderMemories_Sesame_B_2_4,na.rm=T)
 print(PosTenderMemories_Sesame_B_2_4)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx, laugh")
-TenderMemories_Sesame_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx, laugh")
+TenderMemories_Sesame_B_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sesame_B_2.4.14.xlsx",header=T,1)
 TenderMemories_Sesame_B_2_4t=t(TenderMemories_Sesame_B_2_4)
 LTenderMemories_Sesame_B_2_4=data.frame(TenderMemories_Sesame_B_2_4t[c(9, 12, 15, 18),])
 LTenderMemories_Sesame_B_2_4=as.matrix(LTenderMemories_Sesame_B_2_4)
@@ -1481,9 +1519,10 @@ LTenderMemories_Sesame_B_2_4=matrix(LTenderMemories_Sesame_B_2_4,nrow=6,ncol=50)
 LTenderMemories_Sesame_B_2_4=colSums(LTenderMemories_Sesame_B_2_4,na.rm=T)
 print(LTenderMemories_Sesame_B_2_4)
 
+/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx
 ## Attention:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx, attention")
-TenderMemories_Sofia_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx, attention")
+TenderMemories_Sofia_B_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx",1)
 TenderMemories_Sofia_B_2_4t=t(TenderMemories_Sofia_B_2_4)
 AttTenderMemories_Sofia_B_2_4=data.frame(TenderMemories_Sofia_B_2_4t[c(7, 10, 13, 16),])
 AttTenderMemories_Sofia_B_2_4=as.matrix(AttTenderMemories_Sofia_B_2_4)
@@ -1493,14 +1532,14 @@ AttTenderMemories_Sofia_B_2_4=colSums(AttTenderMemories_Sofia_B_2_4,na.rm=T)
 print(AttTenderMemories_Sofia_B_2_4)
 
 ## Total:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx, total")
-TenderMemories_Sofia_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx, total")
+TenderMemories_Sofia_B_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx",1)
 TenderMemories_Sofia_B_2_4t=t(TenderMemories_Sofia_B_2_4)
 TotalTenderMemories_Sofia_B_2_4=data.frame(TenderMemories_Sofia_B_2_4t[c(6),])
 
 ## Positive:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx, positive")
-TenderMemories_Sofia_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx",1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx, positive")
+TenderMemories_Sofia_B_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx",1)
 TenderMemories_Sofia_B_2_4t=t(TenderMemories_Sofia_B_2_4)
 PosTenderMemories_Sofia_B_2_4=data.frame(TenderMemories_Sofia_B_2_4t[c(8, 11, 14, 17),])
 PosTenderMemories_Sofia_B_2_4=as.matrix(PosTenderMemories_Sofia_B_2_4)
@@ -1510,8 +1549,8 @@ PosTenderMemories_Sofia_B_2_4=colSums(PosTenderMemories_Sofia_B_2_4,na.rm=T)
 print(PosTenderMemories_Sofia_B_2_4)
 
 ## Laugh:
-print("~/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx, laugh")
-TenderMemories_Sofia_B_2_4=read.xlsx("~/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx",header=T,1)
+print("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx, laugh")
+TenderMemories_Sofia_B_2_4=read.xlsx("/Users/jbarnett/Google Drive/Sesame_Data/TenderMemories_Sofia_B_2.4.14.xlsx",header=T,1)
 TenderMemories_Sofia_B_2_4t=t(TenderMemories_Sofia_B_2_4)
 LTenderMemories_Sofia_B_2_4=data.frame(TenderMemories_Sofia_B_2_4t[c(9, 12, 15, 18),])
 LTenderMemories_Sofia_B_2_4=as.matrix(LTenderMemories_Sofia_B_2_4)
