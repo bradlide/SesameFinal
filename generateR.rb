@@ -154,6 +154,7 @@ dates.each do |x|
   spreadsheets = meta.select { |y| y[:date_month] == x[:date_month] && y[:date_day] == x[:date_day] && y[:ab] == x[:ab] }
 
   # For loop over each unique date/ab combo's spreadsheets, 3 shows
+  spreadsheets.sort! { |a,b| a[:tv_show] <=> b[:tv_show] }
   spreadsheets.each do |spreadsheet|
     ## CreativeWorld_Sesame_B_2.3.14.xlsx
     filename = "~/Google Drive/Sesame_Data/#{spreadsheet[:school]}_#{spreadsheet[:tv_show]}_#{spreadsheet[:ab]}_#{spreadsheet[:date_month]}.#{spreadsheet[:date_day]}.#{spreadsheet[:date_year]}.xlsx"
@@ -176,5 +177,13 @@ end
 
   ## 4x
   all_totals.each_pair do |k,v|
-    all_totals[k].each_key { |cat| puts "rbind(#{all_totals[k][cat].join(', ')})" }
+    all_totals[k].each_key do |cat|
+      all_totals[k][cat].sort_by! do |a,b|
+        z = -1 if a =~ /sesame/i
+        z = 0  if a =~ /sofia/i
+        z = 1  if a =~ /paw/i
+        z
+      end
+      puts "rbind(#{all_totals[k][cat].join(', ')})"
+    end
   end
